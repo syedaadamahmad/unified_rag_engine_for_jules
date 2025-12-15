@@ -1,0 +1,453 @@
+[
+    {
+        "topic": "Introduction to AI Tools",
+        "category": "Introduction to AI",
+        "level": "All",
+        "type": "Overview",
+        "summary": "Artificial Intelligence is one of the most exciting tools of our generation. This module helps students understand how AI can become their study partner, creative assistant, and research guide.",
+        "content": "Artificial Intelligence, or AI, is one of the most exciting tools of our generation. It's not just something that powers robots or high-tech labs - it's everywhere around us. Every time you ask a question on Google, get a recommendation on YouTube, or use voice search on your phone, you're already using AI. This module, Intro to AI Tools, helps students understand how AI can become their study partner, creative assistant, and research guide. It's all about learning smarter, not harder - and doing it responsibly. AI tools can help you in many ways: They explain difficult ideas in simple terms. They summarize long readings into bite-sized notes. They help write essays, stories, or even songs. They inspire creativity and make projects more fun. But remember - AI doesn't replace your brain. It's a helper, not a shortcut. You bring the creativity, curiosity, and decision-making. AI brings speed, information, and inspiration. When both work together, learning becomes faster, deeper, and more enjoyable.",
+        "keywords": [
+            "AI tools",
+            "introduction to AI",
+            "study partner",
+            "creative assistant",
+            "research guide",
+            "learning support",
+            "AI benefits"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Unlocking Your Potential with AI Tools",
+        "category": "AI Capabilities",
+        "level": "All",
+        "type": "Skills Development",
+        "summary": "AI is like a digital superpower that helps you learn smarter, create with confidence, explore new horizons, and innovate responsibly.",
+        "content": "AI is like a digital superpower. It can help you: Learn smarter: Get instant answers and simple explanations for tricky topics. Create with confidence: Generate stories, essays, and ideas faster than ever. Explore new horizons: Research deeper and discover more about the world. Innovate responsibly: Use technology thoughtfully, understanding its strengths and limits. Using AI teaches you more than facts - it builds skills for the future: critical thinking, creativity, ethical decision-making, and problem-solving. These are the same abilities that scientists, writers, engineers, and entrepreneurs use every day.",
+        "keywords": [
+            "AI potential",
+            "digital skills",
+            "critical thinking",
+            "creativity",
+            "problem-solving",
+            "future skills",
+            "innovation"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "The AI Toolbox for Students",
+        "category": "AI Tools Overview",
+        "level": "All",
+        "type": "Tool Introduction",
+        "summary": "Eight amazing AI tools that support different parts of your learning journey - from studying and writing to problem-solving and expressing creativity.",
+        "content": "Here are the eight amazing AI tools you'll explore in this module: ChatGPT - Study Buddy: Explains concepts, creates quizzes, and helps you brainstorm ideas. Gemini - Creative Researcher: Connects to Google Search for updated info and helps with projects. Perplexity AI - Research Expert: Summarizes web results with citations for essays and debates. Scholarcy - Summary Genius: Condenses long texts and articles into short study notes. Quillbot - Writing Enhancer: Refines sentences, fixes grammar, and improves tone. Photomath - Math Tutor: Solves equations step-by-step and explains each stage clearly. HailuoAI - Story Creator: Writes poems, speeches, and creative stories. Suno - Music Maker: Turns text prompts into songs and melodies for projects. Each tool supports a different part of your learning journey - from studying and writing to problem-solving and expressing creativity.",
+        "keywords": [
+            "AI toolbox",
+            "ChatGPT",
+            "Gemini",
+            "Perplexity AI",
+            "Scholarcy",
+            "Quillbot",
+            "Photomath",
+            "HailuoAI",
+            "Suno",
+            "learning tools"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "ChatGPT - Your Friendly Study Buddy",
+        "category": "Study and Research",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "ChatGPT is your virtual study friend who never gets tired of answering questions, breaking down complicated ideas into simple language.",
+        "content": "Think of ChatGPT as your virtual study friend who never gets tired of answering your questions. You can chat with it anytime - whether you're stuck on a science concept, need to prepare for a quiz, or want to explore a new topic. You can ask questions like: Explain the process of photosynthesis as if I'm in 7th grade. Make a 10-question quiz on the Solar System. Turn my history notes into a short story. ChatGPT breaks down complicated ideas into simple, easy-to-understand language. It can even turn lessons into fun stories or analogies. For example, instead of saying Photosynthesis is the process by which plants make their own food, ChatGPT might say, Plants are like chefs that use sunlight as their stove to cook their own meals. You can also ask it to help you brainstorm ideas for essays or write outlines for school projects. If you're preparing for exams, it can generate practice questions and even explain why each answer is right or wrong. Tip: ChatGPT doesn't replace your textbook - it helps you understand it better. You should always double-check important answers with your teacher or reliable sources.",
+        "keywords": [
+            "ChatGPT",
+            "study buddy",
+            "concept explanation",
+            "quiz generation",
+            "brainstorming",
+            "exam preparation",
+            "learning support"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Gemini - The Creative Researcher",
+        "category": "Study and Research",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "Gemini is a super-smart research assistant that connects directly to Google Search, helping you think creatively and explore ideas with accurate, current information.",
+        "content": "Gemini, developed by Google, is a super-smart research assistant that connects directly to Google Search. This means it gives you information that's accurate, current, and trustworthy. What makes Gemini special is that it doesn't just give plain answers - it helps you think creatively and explore ideas. For example, if you're working on a science fair project about farming, you can ask: How can farmers use technology to save water? Gemini might suggest using drone irrigation, soil moisture sensors, or AI-based weather prediction systems. You can then pick one idea, research it more deeply, and turn it into a real project. In one real classroom example, a student used Gemini to explore smart farming ideas and designed a project on water-efficient farming - which went on to win an award. Gemini teaches you how to combine research with innovation - using solid facts to support your own creative solutions. It's perfect for students who love science projects, essay writing, or exploring new inventions. Tip: Always use Gemini's suggestions as a starting point. Read further, check facts, and add your own ideas to make your work original.",
+        "keywords": [
+            "Gemini",
+            "creative research",
+            "Google Search",
+            "innovation",
+            "science projects",
+            "current information",
+            "project ideas"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Perplexity AI - The Research Pro",
+        "category": "Study and Research",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "Perplexity AI is like having your own digital librarian who reads all web pages for you and gives clear, summarized answers with reliable sources.",
+        "content": "When you search for something on the internet, you often get thousands of results - and not all of them are trustworthy. That's where Perplexity AI comes in. It's like having your own digital librarian who reads all those pages for you and gives a clear, summarized answer. What's even better is that it shows where it got the information from - so you can see which sources are reliable. For example, if you ask: What are the pros and cons of nuclear energy? Perplexity will summarize the answer like this: Pros: Produces lots of power, low carbon emissions. Cons: Risk of radioactive waste, expensive setup. And then it adds links to real articles or science websites where it found this information. This helps you learn how to cross-check facts, compare opinions, and think critically. You're not just memorizing - you're learning to judge what's true and what's not. Tip: When you use Perplexity for school work, always read at least one or two of the sources it provides. It helps you understand topics more deeply and improves your credibility when writing essays or giving presentations.",
+        "keywords": [
+            "Perplexity AI",
+            "research assistant",
+            "fact-checking",
+            "source verification",
+            "critical thinking",
+            "reliable sources",
+            "digital literacy"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Scholarcy - The Summary Genius",
+        "category": "Study and Research",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "Scholarcy is a summarizing tool that takes big chunks of text and turns them into short, easy-to-read study notes.",
+        "content": "Sometimes textbooks and research articles can be very long and overwhelming. Scholarcy helps with that. It's a summarizing tool that takes big chunks of text and turns them into short, easy-to-read study notes. For example, if you upload a long article about the water cycle or renewable energy, Scholarcy picks out the key definitions, main ideas, and important data for you. It's like turning a 20-page science chapter into a 2-page revision guide. This is especially useful during exams, when you need to revise quickly or understand the core idea of a chapter without rereading everything. Scholarcy encourages students to focus on understanding rather than memorizing - a key skill for higher learning. Tip: Use Scholarcy summaries as study notes, but always connect them back to your textbook or class materials for full understanding.",
+        "keywords": [
+            "Scholarcy",
+            "text summarization",
+            "study notes",
+            "exam preparation",
+            "revision",
+            "key concepts",
+            "efficient learning"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Quillbot - The Writing Coach",
+        "category": "Study and Research",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "Quillbot is like a gentle writing teacher who helps polish your words without changing your ideas, improving clarity and tone.",
+        "content": "Writing assignments can be tough - especially when you're not sure how to start or if your sentences sound right. Quillbot is like a gentle writing teacher who helps polish your words without changing your ideas. It can rephrase your sentences to make them sound clearer, fix grammar mistakes, and improve tone. For example: The Taj Mahal is a nice building in India becomes The Taj Mahal stands as a magnificent symbol of Mughal architecture in India. See the difference? Same idea, but the second version sounds more elegant and professional. Quillbot teaches you how to write better by showing different ways to express the same thought. Over time, you start learning how to edit and refine your own writing just like a pro. It's perfect for essays, reports, speeches, or creative writing projects. Tip: Always read your Quillbot output carefully. Don't just copy and paste - edit it, learn from it, and make it your own.",
+        "keywords": [
+            "Quillbot",
+            "writing improvement",
+            "grammar correction",
+            "paraphrasing",
+            "essay writing",
+            "tone enhancement",
+            "writing skills"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "How Research Tools Work Together",
+        "category": "Study and Research",
+        "level": "All",
+        "type": "Tool Integration",
+        "summary": "Each AI tool focuses on one part of your learning process. When used together, they create a complete learning ecosystem.",
+        "content": "Each of these tools focuses on one part of your learning process: ChatGPT explains topics clearly. Gemini helps you explore and research. Perplexity teaches you to verify facts. Scholarcy summarizes information. Quillbot improves your writing. When used together, they create a complete learning ecosystem that makes studying more enjoyable and efficient. For example: Use Gemini or Perplexity to research a topic. Use Scholarcy to summarize your findings. Use ChatGPT to make quiz questions or examples. Use Quillbot to refine your final essay. This way, you don't just learn - you understand, create, and grow. AI turns learning from a one-way process into an interactive, creative, and personalized experience.",
+        "keywords": [
+            "tool integration",
+            "learning ecosystem",
+            "research workflow",
+            "collaborative learning",
+            "study strategy",
+            "efficient studying"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Photomath - Your Math Helper",
+        "category": "Problem-Solving and STEM",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "Photomath turns your smartphone into an instant problem-solving assistant that provides step-by-step explanations of math problems.",
+        "content": "Photomath is like having a math teacher in your pocket. It turns your smartphone into an instant problem-solving assistant. All you have to do is open the app, point your camera at a math problem, and tap the scan button - within seconds, Photomath gives you not just the correct answer but also a step-by-step explanation of how to get there. This means you're not just copying answers - you're learning how to solve the problem yourself. How It Works: Scan the Question: Open the Photomath app and use your phone's camera to take a picture of a math equation or word problem. Instant Solution: The app reads the numbers and symbols instantly. Step-by-Step Guide: It breaks down the solution into smaller steps, showing how each calculation leads to the next. Explanation Mode: You can view different solving methods - for example, solving by factoring, using the quadratic formula, or graphing. This interactive process helps students see how answers are formed rather than just what the final answer is. Many students get stuck not because they don't understand the answer, but because they don't understand the steps. Photomath fills that gap by showing every single stage clearly - just like your teacher would on the board. Photomath supports a wide range of topics: Arithmetic, Algebra, Geometry, Trigonometry, Calculus. Tip: Photomath is not a cheat app - it's a learning companion that teaches understanding, not copying.",
+        "keywords": [
+            "Photomath",
+            "math tutor",
+            "step-by-step solutions",
+            "problem-solving",
+            "STEM learning",
+            "equation solving",
+            "math education"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "HailuoAI - The Storyteller and Scriptwriter",
+        "category": "Creativity and Expression",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "HailuoAI is your personal creative writing assistant that helps you write stories, poems, and scripts with expressive language.",
+        "content": "HailuoAI is like your personal creative writing assistant. Whether you need a poem, a short story, or a class script, this tool helps you get started and makes your writing sound more expressive. Imagine sitting down to write but not knowing where to begin - that's where HailuoAI helps. You can type a prompt like: Write a short story about a robot who learns kindness, or Create a poem about nature's strength and resilience. In just seconds, it gives you a draft full of ideas, imagery, and structure. But that's only the first step. The real creativity comes when you edit, rewrite, and make it your own. You can change the tone, add dialogues, or even blend your own experiences into the story. HailuoAI is especially useful for: Creative writing projects, Speeches or assemblies, School event scripts, Drama club performances. It helps improve vocabulary, tone, and rhythm, while also teaching students how to structure ideas. Most importantly, it helps overcome writer's block - that moment when you know what you want to say but can't find the words. Tip: Use HailuoAI for ideas, not finished work. Think of it as a brainstorming buddy - it gives you inspiration, and you build on it.",
+        "keywords": [
+            "HailuoAI",
+            "creative writing",
+            "storytelling",
+            "poetry",
+            "scriptwriting",
+            "writer's block",
+            "creative expression"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Suno - The AI Music Creator",
+        "category": "Creativity and Expression",
+        "level": "All",
+        "type": "AI Tool",
+        "summary": "Suno is an AI tool that turns text into songs - complete with lyrics, beats, rhythm, and vocals.",
+        "content": "Now imagine if your story or poem could sing. That's exactly what Suno does. Suno is an AI tool that turns text into songs - complete with lyrics, beats, rhythm, and vocals. You simply give it a prompt like: Make a cheerful pop song about teamwork, or Compose a calm piano tune for a science project on the solar system. Within moments, Suno produces a full piece of music - something that sounds like it came from a studio. Suno is amazing for: School projects and presentations, Cultural programs and assemblies, Language or art projects, Personal creativity - just for fun. It helps students understand rhythm, tone, and emotion in music - and how words can be expressed in sound. Tip: When writing your prompt, include 3 things - mood, theme, and style. For example: A happy pop song about reading books or A calm instrumental tune for a space video.",
+        "keywords": [
+            "Suno",
+            "music creation",
+            "AI music",
+            "text to song",
+            "creative projects",
+            "multimedia",
+            "artistic expression"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Combining Creativity - HailuoAI and Suno",
+        "category": "Creativity and Expression",
+        "level": "All",
+        "type": "Tool Integration",
+        "summary": "When used together, HailuoAI and Suno become a creative powerhouse for story-to-song projects and multimedia creations.",
+        "content": "When used together, HailuoAI and Suno become a creative powerhouse. You can use HailuoAI to write a story, poem, or speech, and then use Suno to add a musical layer that brings emotion and energy. Here are a few fun classroom ideas: Story-to-Song Project: Write a story about teamwork using HailuoAI, then create a jingle about it with Suno. Poetry with Music: Turn a HailuoAI poem on saving the planet into an inspiring environmental anthem. Science and Art Fusion: Explain the Life Cycle of a Star through a narrative and a background soundtrack. This combination not only improves creativity but also builds digital literacy - students learn how different technologies can work together to create something unique.",
+        "keywords": [
+            "creative integration",
+            "multimedia projects",
+            "story to song",
+            "digital literacy",
+            "artistic collaboration",
+            "project-based learning"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Responsible and Ethical AI Use",
+        "category": "Ethics and Safety",
+        "level": "All",
+        "type": "Guidelines",
+        "summary": "AI must be used with wisdom and care. Learning to use AI responsibly makes you a smart digital citizen who understands the power and impact of technology.",
+        "content": "AI can be exciting, creative, and incredibly helpful - but just like any powerful tool, it must be used with wisdom and care. Learning to use AI responsibly is just as important as learning how to use it. When students learn to question, verify, and make thoughtful choices while using AI, they don't just become good users - they become smart digital citizens who understand the power and impact of technology. The Golden Rule: Brain First, AI Second. This is the most important rule for using AI wisely. It means: Always use your own brain first - think, analyze, and form your ideas - then use AI to support, refine, or check them. AI can help you understand, but it shouldn't decide for you. Your thoughts, creativity, and emotions make you unique - AI just helps organize and express them better. Be a Smart and Ethical AI User: Always Verify Information: AI is powerful, but it's not perfect. Sometimes it may give incomplete, outdated, or even wrong information. Check the answers with your textbook or a trusted source. Respect Originality: AI can give you great ideas, but the real creativity should come from you. Using AI's help is fine, but copying its exact words or images and calling them your own is not. Use AI's suggestions as inspiration. Protect Your Privacy: When using AI tools online, always be careful about what information you share. Never type your full name, school name, phone number, address, or passwords into AI systems. Recognize Bias: AI learns from humans, and humans sometimes have opinions or biases. That means AI's answers might occasionally reflect unfair or one-sided views. Being responsible means noticing that bias and questioning it instead of accepting it blindly.",
+        "keywords": [
+            "AI ethics",
+            "responsible use",
+            "digital citizenship",
+            "privacy",
+            "verification",
+            "originality",
+            "AI bias",
+            "critical thinking"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Recognizing AI Bias",
+        "category": "Ethics and Safety",
+        "level": "All",
+        "type": "Critical Thinking",
+        "summary": "AI can reflect human biases. Learning to recognize and question bias makes you a critical thinker and responsible digital citizen.",
+        "content": "AI learns from humans, and humans sometimes have opinions or biases. That means AI's answers might occasionally reflect unfair or one-sided views. For instance, if you ask AI for famous inventors, it might mostly list men like Edison and Tesla. But we know there are also amazing women inventors like Marie Curie and Ada Lovelace. That's called AI bias - when information is incomplete or unbalanced. Being responsible means noticing that bias and questioning it instead of accepting it blindly. Ask yourself: Why didn't AI include women or inventors from other countries? What voices might be missing here? By thinking this way, you become not just a learner - but a critical thinker who makes technology fairer and smarter for everyone. Real Classroom Example: Let's imagine your class is researching inventors for a group project. You use an AI tool and ask: Who are the top five inventors in history? The tool lists: Edison, Einstein, Newton, Bell, and Tesla - all men. Your teacher pauses and asks, Can anyone think of a woman inventor? You say, Marie Curie, and your classmate adds, Rosalind Franklin. Now the class discusses why AI missed those names. You learn that it's not because women didn't invent things - it's because AI's training data didn't show them enough. That's bias in action - and recognizing it makes you smarter than the algorithm.",
+        "keywords": [
+            "AI bias",
+            "critical thinking",
+            "fairness",
+            "diversity",
+            "representation",
+            "questioning results",
+            "ethical awareness"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI Tools Challenge Mini Project",
+        "category": "Hands-On Learning",
+        "level": "All",
+        "type": "Project Activity",
+        "summary": "The AI Tools Challenge gives students a chance to combine two or more AI tools to create an original, creative project.",
+        "content": "The best way to learn is by creating - and this mini project gives you the perfect chance to use everything you've learned in this module. In the AI Tools Challenge, students get to combine two or more AI tools to make an original, creative project. The goal is to explore, experiment, and show how AI can help you learn in fun, meaningful ways. How It Works: Choose two AI tools from your module - like ChatGPT, Suno, Scholarcy, or HailuoAI. Pick a theme or topic. Use AI tools together to create something new and exciting. Add your own ideas, design, and creativity. Creative Examples: Story and Song: Use HailuoAI to write a story about teamwork, then use Suno to turn it into a short theme song. Summary and Design: Use Scholarcy to summarize a science article, and then turn that summary into a colorful infographic. Quiz and Visuals: Use ChatGPT to make a fun quiz about AI tools or world geography, and then design it into a digital poster. Research and Presentation: Use Gemini to find facts about climate change and Quillbot to rewrite your report in a more polished way. What You'll Learn: How to combine different tools effectively. Express your creativity with confidence. Think critically about how AI supports your ideas. Work as a team and divide roles smartly. It's not just about showing what AI can do - it's about showing what YOU can do with AI.",
+        "keywords": [
+            "AI project",
+            "hands-on learning",
+            "tool integration",
+            "creativity",
+            "collaboration",
+            "problem-solving",
+            "practical application"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Skills Gained from Module 2",
+        "category": "Learning Outcomes",
+        "level": "All",
+        "type": "Skills Summary",
+        "summary": "By completing Module 2, students develop research skills, digital literacy, creative expression, problem-solving abilities, and ethical awareness.",
+        "content": "By the end of this module, you'll not only understand how AI tools work - you'll also develop powerful skills that prepare you for the future. Research and Analytical Thinking: You'll learn to ask smart questions, compare information, and check facts. AI gives you answers, but you'll know how to test and evaluate them. Digital Literacy: You'll become comfortable using digital tools for study, creativity, and projects - a skill every future-ready student needs. Creative Expression: From writing stories to composing songs, you'll discover new ways to share your ideas with the world using AI as your creative partner. Problem-Solving: AI helps break big problems into smaller, manageable steps - and you'll learn how to apply that skill not just in math, but in life. Ethical Awareness: You'll understand that using technology comes with responsibility. You'll learn how to be fair, safe, and thoughtful while using AI tools. Why These Skills Matter: These aren't just tech skills - they're life skills. They'll help you in every subject, in future studies, and even in your career. Whether you become a scientist, designer, teacher, or entrepreneur - knowing how to use AI responsibly will make you a leader in the digital age.",
+        "keywords": [
+            "learning outcomes",
+            "skills development",
+            "research skills",
+            "digital literacy",
+            "creativity",
+            "problem-solving",
+            "ethical awareness",
+            "future readiness"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI in Everyday Life",
+        "category": "Real-World Applications",
+        "level": "All",
+        "type": "Practical Examples",
+        "summary": "AI is part of daily life through Google Search, YouTube recommendations, Maps, and smart assistants, making technology more helpful and personalized.",
+        "content": "Artificial Intelligence isn't just a school subject - it's part of your daily life already. Every time you use Google Search, YouTube recommendations, Maps, or smart assistants like Siri and Alexa, AI is working behind the scenes. It helps make decisions faster, spot patterns humans might miss, and make technology more helpful and personalized. From medicine to music, AI is making the world more efficient, creative, and connected.",
+        "keywords": [
+            "AI applications",
+            "everyday AI",
+            "Google",
+            "YouTube",
+            "smart assistants",
+            "personalization",
+            "real-world use"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI in Medicine and Healthcare",
+        "category": "Real-World Applications",
+        "level": "All",
+        "type": "Healthcare Applications",
+        "summary": "AI helps doctors save lives by reading medical images, detecting diseases early, designing medicines, and improving patient care.",
+        "content": "AI is helping doctors save lives and improve healthcare. It can read X-rays, detect diseases early, and even help design new medicines. Example: AI programs can study thousands of medical images and spot signs of illnesses like pneumonia or cancer - sometimes faster than doctors can. This helps doctors confirm diagnoses and start treatment sooner. AI chatbots also help answer basic health questions, schedule appointments, and remind patients to take medicine on time. In the future, you might see hospitals using AI-powered robots to assist doctors in surgeries or care for patients safely. Lesson for Students: Technology is most powerful when it helps people - AI's true purpose is to make life healthier, easier, and safer.",
+        "keywords": [
+            "AI healthcare",
+            "medical AI",
+            "disease detection",
+            "healthcare technology",
+            "patient care",
+            "medical diagnosis"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI in the Environment",
+        "category": "Real-World Applications",
+        "level": "All",
+        "type": "Environmental Applications",
+        "summary": "AI helps protect the planet by tracking climate change, predicting natural disasters, protecting endangered species, and supporting sustainable farming.",
+        "content": "AI is becoming a hero for our planet. It helps scientists track climate change, predict natural disasters, and protect endangered species. Example: AI systems analyze satellite images to detect illegal deforestation or monitor ocean pollution. It can also predict floods or forest fires earlier so that people can prepare and stay safe. Farmers use AI tools like drone irrigation systems and soil sensors to save water and grow crops more efficiently. Lesson for Students: When used responsibly, AI can protect nature and support a sustainable future for everyone.",
+        "keywords": [
+            "AI environment",
+            "climate change",
+            "sustainability",
+            "conservation",
+            "natural disasters",
+            "smart farming"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI in Education and Learning",
+        "category": "Real-World Applications",
+        "level": "All",
+        "type": "Educational Applications",
+        "summary": "AI transforms education by making learning interactive, creative, and personalized, allowing students to learn at their own pace.",
+        "content": "AI has completely changed how we learn. Tools like ChatGPT, Gemini, and Scholarcy make studying interactive, creative, and personalized. Students can learn at their own pace, ask unlimited questions, and explore any topic they're curious about. Teachers use AI to create lesson plans, quizzes, and even personalized assignments - ensuring that every student learns in a way that suits them best. Example: A student struggling with fractions can ask AI to explain fractions using pizza slices. AI responds visually and step-by-step, turning confusion into confidence. Lesson for Students: AI makes learning accessible for everyone - but it's still your curiosity and hard work that make knowledge stick.",
+        "keywords": [
+            "AI education",
+            "personalized learning",
+            "educational technology",
+            "adaptive learning",
+            "student support",
+            "teaching tools"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI in Movies, Music, and Art",
+        "category": "Real-World Applications",
+        "level": "All",
+        "type": "Creative Applications",
+        "summary": "AI enhances creativity in filmmaking, music composition, and digital art while requiring human imagination and style.",
+        "content": "AI is making the creative world more exciting. It helps filmmakers edit scenes, musicians compose songs, and artists design digital masterpieces. Examples: Filmmakers use AI to add special effects, restore old black-and-white movies, or generate realistic animations. Musicians use AI tools like Suno to create background tracks and lyrics. Artists use AI art tools to turn simple sketches into colorful, realistic paintings. But just like in school, responsible use is key. Artists still need to add their own style and emotion. AI is a paintbrush, not the painter - the creativity always comes from you. Lesson for Students: Technology can assist creativity, but it can never replace imagination.",
+        "keywords": [
+            "AI creativity",
+            "AI art",
+            "AI music",
+            "filmmaking",
+            "creative technology",
+            "digital art",
+            "artistic expression"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI in Careers and Future Jobs",
+        "category": "Real-World Applications",
+        "level": "All",
+        "type": "Career Applications",
+        "summary": "Almost every job in the future will use AI in some way. AI will change how we work, helping people do things faster and more effectively.",
+        "content": "Almost every job in the future will use AI in some way - whether it's teaching, designing, coding, or even sports training. AI will not take jobs away - it will change how we work, helping people do things faster and more effectively. Examples: Engineers use AI to design safer bridges and buildings. Fashion designers use AI to predict trends and create sustainable clothing. Scientists use AI to discover new materials and study space. Even athletes use AI to track performance and plan training schedules. Students who learn AI today are preparing for the world of tomorrow - where human creativity and AI innovation work side by side. Lesson for Students: You don't need to be a programmer to use AI - you just need to be curious, ethical, and willing to learn.",
+        "keywords": [
+            "AI careers",
+            "future jobs",
+            "career preparation",
+            "AI in workplace",
+            "professional development",
+            "career skills",
+            "AI innovation"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "AI for Good: Building a Better World",
+        "category": "Real-World Applications",
+        "level": "All",
+        "type": "Social Impact",
+        "summary": "The most inspiring part of AI is how it's being used for good causes - from education and medicine to solving social challenges.",
+        "content": "The most inspiring part of AI is how it's being used for good causes - from education and medicine to solving social challenges. Examples: Translating books and lessons into multiple languages for free. Helping visually impaired people navigate cities using voice assistants. Designing affordable robots to help people with disabilities. AI gives us the power to make the world fairer and more inclusive - but only when we use it responsibly, with kindness and creativity.",
+        "keywords": [
+            "AI for good",
+            "social impact",
+            "accessibility",
+            "inclusion",
+            "assistive technology",
+            "humanitarian AI",
+            "positive change"
+        ],
+        "module_name": "module2_kb"
+    },
+    {
+        "topic": "Final Takeaway: Be a Responsible Innovator",
+        "category": "Module Summary",
+        "level": "All",
+        "type": "Conclusion and Best Practices",
+        "summary": "AI is not the future - you are. Your creativity, empathy, and choices decide how technology shapes the world.",
+        "content": "AI is not the future - you are. It's your creativity, empathy, and choices that decide how technology shapes the world. Remember these golden habits every time you use AI: Think before you type - use your brain first. Check before you trust - always verify facts. Create before you copy - add your voice and originality. Use tech for good - to help, inspire, and include others. If students learn to use AI with curiosity and conscience, they won't just be users of technology - they'll be leaders, inventors, and changemakers who guide it toward a better tomorrow.",
+        "keywords": [
+            "responsible innovation",
+            "AI ethics",
+            "best practices",
+            "digital citizenship",
+            "future leaders",
+            "changemakers",
+            "ethical AI use",
+            "critical thinking"
+        ],
+        "module_name": "module2_kb"
+    }
+]

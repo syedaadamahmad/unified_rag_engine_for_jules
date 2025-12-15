@@ -1,0 +1,1388 @@
+[
+    {
+        "topic": "The New Age of Creativity - Where Imagination Meets Intelligence",
+        "category": "Introduction to AI Creativity",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Overview",
+        "summary": "We are living in one of the most exciting times in human history, a time when machines can imagine with us. Creativity is now being supercharged by Artificial Intelligence.",
+        "content": "We are living in one of the most exciting times in human history, a time when machines can imagine with us. Creativity, which was once considered purely human, is now being supercharged by Artificial Intelligence. It's no longer just scientists and coders who work with AI, artists, writers, filmmakers, musicians, and even students are using it to bring their ideas to life. Think about this: if you describe a superhero with fire powers, AI can paint them for you. If you write a short story, AI can turn it into a narrated video. If you hum a melody, AI can build an entire song around it. It's like having an invisible creative partner who listens carefully, understands your vision, and helps you build it instantly. This is why Module 3 is special. It's not about learning dry facts, it's about unlocking your imagination and discovering how AI can transform your ideas into real, shareable creations. Creativity isn't about fancy tools or expensive software anymore, it's about your ideas and how clearly you can express them. And AI is here to turn those ideas into reality.",
+        "keywords": [
+            "AI creativity",
+            "imagination",
+            "creative partner",
+            "AI collaboration",
+            "supercharged creativity",
+            "creative expression",
+            "AI tools"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Why Creativity Matters More Than Ever",
+        "category": "Introduction to AI Creativity",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "Creativity is about solving problems in new ways, telling stories, designing solutions, and expressing unique thoughts. AI expands what's possible by removing technical barriers.",
+        "content": "Before we dive into tools and techniques, let's understand why creativity is so important in the first place. Creativity is not just about painting or writing poems. It's about solving problems in new ways, telling stories, designing solutions, and expressing your unique thoughts. Every invention, every breakthrough, from the first airplane to the latest smartphone, started as a creative idea. Now, add AI into the mix. AI doesn't just speed things up, it expands what's possible. You don't need to spend weeks learning how to use a design tool or months learning video editing. Instead, you focus on your imagination, and AI handles the technical work. It means you can now explore bigger, bolder ideas than ever before. For students, this is game-changing. You can turn class projects into animated videos, design your own comics, compose soundtracks for events, or build characters for a video game, all by yourself. Creativity is no longer limited by skill level, it's powered by imagination.",
+        "keywords": [
+            "creativity importance",
+            "problem solving",
+            "storytelling",
+            "AI empowerment",
+            "imagination",
+            "technical barriers",
+            "creative freedom"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "AI as Creative Partner",
+        "category": "Introduction to AI Creativity",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "AI is not replacing artists, writers, or filmmakers. Instead, it's helping them create faster, better, and at larger scales as a creative collaborator.",
+        "content": "When people first heard about Artificial Intelligence, they imagined robots solving math problems or answering questions. But today, AI is also a creative collaborator. It's not replacing artists, writers, or filmmakers, instead, it's helping them create faster, better, and at larger scales. Think of AI as a partner who never gets tired, never runs out of ideas, and always listens. You say, Draw me a dragon flying over a city at sunset, and it paints it in seconds. You say, Make this story into a video, and it animates it. But here's the most important part: AI doesn't think for you, it thinks with you. It still needs your creativity to shine. Your ideas, imagination, and direction are the spark. AI is the engine that brings them to life. Together, you and AI can build things that neither of you could do alone. This teamwork, human creativity plus AI power, is the future of innovation.",
+        "keywords": [
+            "AI collaboration",
+            "creative partner",
+            "human-AI teamwork",
+            "innovation",
+            "creative collaboration",
+            "AI assistance"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "The Superpower of Prompts - Talking to AI",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Foundational Skill",
+        "summary": "Prompts are the language you use to communicate with AI. The quality of your result depends directly on the quality of your prompt.",
+        "content": "If AI is your creative partner, then prompts are the language you use to communicate with it. A prompt is simply a sentence or two describing what you want AI to do. But here's the catch: the quality of your result depends directly on the quality of your prompt. A short, vague prompt gives you something ordinary. For example: Draw a city gives you a random city. But a detailed, descriptive prompt unlocks creativity: A futuristic city floating in the clouds at sunset, with flying cars and neon lights, digital art style. See the difference? The second prompt paints a clear picture in the AI's mind. That's why learning to write strong prompts is one of the most important skills in AI creativity. You're not just typing words, you're directing an artist. Think of prompts as instructions for a friend. The more clearly you explain what you want, mood, style, color, perspective, emotion, the closer the result will match your vision. And just like a muscle, prompting gets stronger with practice.",
+        "keywords": [
+            "prompts",
+            "prompt engineering",
+            "AI communication",
+            "detailed prompts",
+            "directing AI",
+            "prompt quality",
+            "creative instructions"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "From Ideas to Creations - The AI Creative Workflow",
+        "category": "Introduction to AI Creativity",
+        "level": "All (Grades 6-12)",
+        "type": "Process Framework",
+        "summary": "AI turns imagination into reality through a five-step workflow: Imagine, Describe, Generate, Refine, and Share.",
+        "content": "Here's how AI turns your imagination into reality, step by step: Step 1: Imagine. Think of an idea. It could be a superhero, a poster, a video, a poem, anything. Step 2: Describe. Turn that idea into a clear prompt. Add details about style, mood, background, and story. Step 3: Generate. Use an AI tool to transform your words into art, music, or video. Step 4: Refine. Adjust the prompt or make edits based on the result. Step 5: Share. Use your creation for school projects, competitions, or online portfolios. This workflow is the same process professionals use, the only difference is, you can do it too, right now. AI removes the barriers and lets your creativity shine from day one.",
+        "keywords": [
+            "creative workflow",
+            "AI process",
+            "idea to creation",
+            "professional workflow",
+            "creative process",
+            "iteration",
+            "refinement"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "What Are Prompts and Why Do They Matter",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Foundational Concept",
+        "summary": "At the heart of every creative AI tool is a simple idea: it listens to your words and turns them into creations. These words are called prompts.",
+        "content": "At the heart of every creative AI tool is a simple idea: it listens to your words and turns them into creations. These words are called prompts. A prompt is basically an instruction, a message you give to AI that tells it what to create, how to create it, and what details to include. Think of AI as a brilliant artist who can draw, paint, compose, or animate anything, but it can't read your mind. You have to tell it what you want. That's what prompts do. The better you describe your idea, the closer the AI's creation will match what you imagined. This is why prompt engineering is a superpower. It's not about coding or math, it's about words, creativity, and clarity. Even two people using the same AI tool can get completely different results just because one wrote a better prompt. Once you master prompt writing, you unlock the true power of AI creativity.",
+        "keywords": [
+            "prompts",
+            "instructions",
+            "AI communication",
+            "prompt engineering",
+            "clarity",
+            "creative control",
+            "AI direction"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "The Golden Rule - Be Clear, Be Specific",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Best Practice",
+        "summary": "AI understands details, structure, and description. The more clearly you describe your vision, the better the AI understands you.",
+        "content": "AI isn't magical, it's logical. It understands details, structure, and description. So instead of saying something short and vague like Draw a dog, give AI a detailed description: A golden retriever puppy wearing a red bow tie, sitting in a park with flowers in the background, cartoon style. The second prompt gives AI context, golden retriever, style, cartoon, details, bow tie, park, flowers, and mood, playful and cute. And because of that, the result will be much closer to what you pictured. This is the most important rule: The more clearly you describe your vision, the better the AI understands you.",
+        "keywords": [
+            "clarity",
+            "specificity",
+            "detailed prompts",
+            "context",
+            "descriptive language",
+            "prompt quality",
+            "AI understanding"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "The 5 Elements of a Great Prompt",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Framework",
+        "summary": "A strong prompt usually has five key parts: Subject, Details and Attributes, Setting or Background, Style and Mood, and Composition or Angle.",
+        "content": "When writing prompts for creative tools, think of them like building blocks. A strong prompt usually has these five key parts: Element 1: Subject. Who or what should be in the image or creation? Example: A medieval knight or a superhero cat. Element 2: Details and Attributes. Add features, colors, clothing, expressions, or traits. Example: wearing a silver armor with a glowing sword. Element 3: Setting or Background. Where is it happening? What's around it? Example: standing in a dark enchanted forest with glowing fireflies. Element 4: Style and Mood. What art style, tone, or mood do you want? Example: digital painting, dramatic lighting, cinematic style. Element 5: Composition or Angle, optional. From what perspective should it be shown? Example: close-up shot or bird's-eye view. Combine them all: A medieval knight wearing silver armor with a glowing sword, standing in a dark enchanted forest with glowing fireflies, digital painting, dramatic lighting, cinematic style. This is the difference between something ordinary and something spectacular.",
+        "keywords": [
+            "prompt elements",
+            "prompt structure",
+            "subject",
+            "details",
+            "setting",
+            "style",
+            "mood",
+            "composition",
+            "prompt framework"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Style Matters - Telling AI How to Create",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Technique",
+        "summary": "Style instruction is one of the most powerful prompt techniques. AI can create the same subject in many different styles based on your direction.",
+        "content": "One of the most powerful prompt techniques is style instruction. Just like artists draw differently in pencil, watercolor, or digital art, AI can create the same subject in many different styles. It's your job to tell it which one you want. Try changing the style in your prompt and watch how different the results are: A futuristic city skyline at sunset, realistic photo. A futuristic city skyline at sunset, watercolor painting. A futuristic city skyline at sunset, anime style. A futuristic city skyline at sunset, pixel art. The subject stays the same, but the results look completely different. This is how professionals control the look and feel of their creations. As a student, this helps you explore how the same idea can take many forms, perfect for art projects, posters, and visual storytelling.",
+        "keywords": [
+            "style instruction",
+            "art styles",
+            "visual styles",
+            "creative control",
+            "style variation",
+            "artistic direction"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Experiment with Mood and Emotion",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Technique",
+        "summary": "Creativity is not just about objects, it's also about feelings. AI can capture moods like joy, mystery, sadness, or excitement, but only if you tell it to.",
+        "content": "Creativity is not just about objects, it's also about feelings. AI can capture moods like joy, mystery, sadness, or excitement, but only if you tell it to. Compare these prompts: A boy walking in the rain. A lonely boy walking in the rain under a grey sky, cinematic, emotional tone. A cheerful boy splashing in puddles during a summer rain, cartoon, happy mood. All three are technically the same scene, but each one feels completely different. Adding mood words like mysterious, peaceful, dramatic, cheerful, or nostalgic gives your creation emotional depth. This is a trick professional artists, writers, and filmmakers use, and now you can too.",
+        "keywords": [
+            "mood",
+            "emotion",
+            "emotional depth",
+            "tone",
+            "atmosphere",
+            "feeling",
+            "emotional design"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Advanced Prompt Techniques - The Prompt Formula",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Advanced Technique",
+        "summary": "Once comfortable with basic prompts, use the powerful formula: Subject plus Details plus Setting plus Style plus Mood plus Composition.",
+        "content": "Once you're comfortable with basic prompts, try using this powerful formula: Subject plus Details plus Setting plus Style plus Mood plus Composition. Example: A young girl reading a book under a giant tree filled with glowing lanterns, at twilight, fantasy digital painting, magical atmosphere, wide-angle shot. Here's what's happening: Subject is young girl. Details is reading a book. Setting is under a giant tree with glowing lanterns. Style is fantasy digital painting. Mood is magical atmosphere. Composition is wide-angle shot. This structure works for any type of AI creation, art, music, video, poster, or story. It trains your brain to think like a creative director giving clear instructions to an AI team.",
+        "keywords": [
+            "prompt formula",
+            "advanced prompting",
+            "prompt structure",
+            "creative direction",
+            "systematic prompting",
+            "prompt framework"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Iteration - The Secret to Perfection",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Best Practice",
+        "summary": "Even experts rarely get the perfect result on the first try. Creativity is about experimentation and refining prompts based on results.",
+        "content": "Even experts rarely get the perfect result on the first try, and that's okay! Creativity is about experimentation. After AI gives you a result, ask yourself: What's missing? What do I want to change? Can I add more detail or emotion? Then rewrite your prompt based on your answer. Each version gets better and closer to what you want. This process of refining and improving is called iteration, and it's one of the most powerful ways to learn how AI thinks. Example: First try: A castle on a hill. Second try: A medieval castle on a hill during a thunderstorm, dramatic, cinematic style. Third try: A massive medieval castle with glowing windows perched on a rocky hill during a thunderstorm, dramatic, cinematic style, wide-angle perspective. The third version will almost always blow your mind compared to the first.",
+        "keywords": [
+            "iteration",
+            "refinement",
+            "experimentation",
+            "improvement",
+            "prompt revision",
+            "creative process",
+            "learning AI"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Prompt Engineering Beyond Images",
+        "category": "Prompt Engineering",
+        "level": "All (Grades 6-12)",
+        "type": "Application",
+        "summary": "Prompts work for music, video, and storytelling too. Once you understand how prompting works, you can apply it to any creative task.",
+        "content": "Prompts aren't just for art, they work for music, video, and storytelling too. Music example: An inspiring orchestral track for a science documentary, starting softly and building dramatically. Video example: A 2-minute explainer video about climate change with narration, simple animations, and a hopeful tone. Story example: Write a story about a time-traveling explorer who discovers a hidden civilization under the ocean, adventurous and mysterious tone. Once you understand how prompting works, you can apply it to any creative task.",
+        "keywords": [
+            "multi-modal prompting",
+            "music prompts",
+            "video prompts",
+            "story prompts",
+            "versatile prompting",
+            "creative applications"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Creativity Without Limits - Why AI Art Matters",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "AI makes art accessible to everyone. You don't need to know how to draw or paint, all you need is an idea and a clear description.",
+        "content": "For centuries, creating art meant learning techniques, practicing for years, and using expensive tools. But today, AI makes art accessible to everyone. You don't need to know how to draw or paint, all you need is an idea and a clear description. AI handles the rest. Imagine typing, A glowing castle floating in the clouds at sunset. Within seconds, AI generates a breathtaking image that looks like it came from a fantasy movie poster. That's the power of AI art tools like Midjourney and DALL·E, they transform ideas into visuals with stunning detail and style. This matters for students because it removes the biggest barrier to creativity: technical skill. Now, your imagination is the only limit. You can design artwork for school projects, create visuals for your stories, or even build original characters for a comic or video game, all without needing advanced art skills.",
+        "keywords": [
+            "AI art",
+            "accessible creativity",
+            "art democratization",
+            "visual creation",
+            "imagination",
+            "technical barriers",
+            "art tools"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Midjourney - Your AI Artist",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "Midjourney is one of the most powerful AI art generators, turning text prompts into stunning digital images from realistic portraits to fantasy landscapes.",
+        "content": "Midjourney is one of the most powerful AI art generators available today. It takes text prompts and turns them into stunning digital images, from realistic portraits to fantasy landscapes to abstract art. Here's why Midjourney is special: Artistic Freedom. It supports many styles, anime, cyberpunk, oil painting, watercolor, pixel art, and more. Professional Quality. The images are detailed and polished, often good enough for posters or book covers. Creative Exploration. You can experiment endlessly, changing moods, settings, and perspectives. Example Prompts: A futuristic floating city glowing at night, cyberpunk style, digital painting. A superhero girl with ice powers standing on a mountain during a snowstorm, cinematic, dramatic lighting. A magical forest with glowing mushrooms and fairies, watercolor illustration. Student Use Cases: Create artwork for English storytelling projects. Design characters for a creative writing piece. Visualize scenes for a history or literature assignment.",
+        "keywords": [
+            "Midjourney",
+            "AI art generator",
+            "digital art",
+            "image generation",
+            "visual creation",
+            "art styles",
+            "creative tool"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "DALL·E - AI Art with Smart Editing",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "DALL·E turns text into images and also lets you edit existing images through inpainting and expand them beyond their borders through outpainting.",
+        "content": "DALL·E, created by OpenAI, is another incredible image-generation tool, and it has some unique powers. Like Midjourney, it turns text into images, but it also lets you edit existing images, called inpainting, and expand them beyond their borders, outpainting. This means you can fix details in a picture, add new elements, or zoom out to reveal a larger scene. It's like having a creative studio where you can design and edit simultaneously. Example Prompts: A peaceful village under a starry night sky, oil painting style. A classroom of robots learning math, cartoon illustration. A portrait of a young scientist holding a glowing invention, digital art. Student Use Cases: Create covers for school projects or digital magazines. Generate illustrations for poems or short stories. Edit images for posters or social media campaigns.",
+        "keywords": [
+            "DALL·E",
+            "AI art",
+            "image generation",
+            "inpainting",
+            "outpainting",
+            "image editing",
+            "OpenAI",
+            "creative tool"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Ideogram - Posters and Infographics Made Easy",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "Ideogram specializes in turning text and information into clean, professional-looking designs for posters, infographics, and visual summaries.",
+        "content": "Not all creativity is about paintings and fantasy scenes. Sometimes, you need visuals that explain ideas clearly, like a science poster or a data infographic. That's where Ideogram comes in. It specializes in turning text and information into clean, professional-looking designs. Whether you're creating a Save the Planet campaign, a project poster, or a visual summary of your research, Ideogram makes it easy. Example Prompts: An infographic explaining renewable energy, bright, modern design. A poster about water conservation for a school campaign, bold and clear. A step-by-step infographic showing the life cycle of a butterfly, educational style. Student Use Cases: Design science fair posters and awareness campaigns. Summarize class research visually. Turn boring data into fun visuals that are easy to understand.",
+        "keywords": [
+            "Ideogram",
+            "posters",
+            "infographics",
+            "visual design",
+            "data visualization",
+            "educational graphics",
+            "design tool"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "KREA - Real-Time Creative Experimentation",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "KREA shows images as you type, providing real-time feedback perfect for experimenting with ideas and mixing multiple art styles.",
+        "content": "KREA is like a playground for creativity. Unlike most tools that generate the image after you press enter, KREA shows the image as you type. This real-time feedback makes it perfect for experimenting with ideas and exploring how small changes in a prompt affect the output. It's also great for mixing multiple art styles. You can combine watercolor with pixel art or realistic photography with cartoon to see unique results. Example Prompts: An Earth Day poster with watercolor textures and hand-drawn typography. A futuristic city with neon signs, half digital art, half pencil sketch style. A cartoon-style infographic about ocean pollution. Student Use Cases: Quickly design posters for events or projects. Explore multiple creative styles in one project. Experiment with prompt writing and see instant results.",
+        "keywords": [
+            "KREA",
+            "real-time generation",
+            "creative experimentation",
+            "style mixing",
+            "instant feedback",
+            "visual design",
+            "interactive tool"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Building Characters and Story Worlds",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Application",
+        "summary": "AI art tools enable character creation and world-building, allowing students to design superheroes, fantasy creatures, and entire story universes.",
+        "content": "One of the most exciting uses of AI art tools is character creation. Students can design superheroes, fantasy creatures, historical figures, or even their own avatars. And it's not just about looks, you can also use AI to build entire worlds around them. Example: Step 1: Create a character, A time-traveling explorer wearing futuristic armor, comic style. Step 2: Create the world, A neon-lit city in the year 3025 with flying vehicles and holograms. Step 3: Combine them, The time traveler exploring the futuristic city, wide shot, cinematic style. Suddenly, your creative writing project becomes a fully illustrated story universe. This helps students visualize and develop their storytelling skills, and it's also a powerful way to prepare for competitions and creative showcases.",
+        "keywords": [
+            "character creation",
+            "world-building",
+            "storytelling",
+            "visual narrative",
+            "character design",
+            "creative writing",
+            "story universe"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Transforming Data into Visual Stories",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Application",
+        "summary": "AI converts numbers, facts, and research into clear visual stories through infographics and charts, making information more engaging and understandable.",
+        "content": "AI isn't just about art, it's about visual communication. Tools like Ideogram and KREA can convert numbers, facts, and research into clear visual stories. For example, instead of writing a 2-page report on climate change, you can present the same information as an infographic poster with charts, icons, and visuals. This skill is extremely valuable because in the real world, people prefer visual summaries over long paragraphs. Learning how to use AI for visual communication gives students an edge in science fairs, project presentations, and online content creation.",
+        "keywords": [
+            "data visualization",
+            "visual communication",
+            "infographics",
+            "visual storytelling",
+            "information design",
+            "data presentation"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Real-World Examples of AI Art in Action",
+        "category": "AI Art and Visual Design",
+        "level": "All (Grades 6-12)",
+        "type": "Industry Applications",
+        "summary": "Studios, game companies, brands, and educators use AI to design concept art, create characters and landscapes, generate marketing visuals, and explain complex topics.",
+        "content": "Movies and TV: Studios use AI to design concept art for scenes, creatures, and worlds, saving weeks of work. Game Design: Game companies use AI to generate characters, landscapes, and objects. Marketing: Brands use AI to create social media visuals and product posters in minutes. Education: Teachers use AI-generated images to explain complex topics visually, helping students learn faster. This shows students that the same tools they're learning now are used by professionals in real industries. Mastering them early means they're building skills that are directly relevant to future careers.",
+        "keywords": [
+            "real-world applications",
+            "industry use",
+            "professional tools",
+            "career relevance",
+            "AI in entertainment",
+            "AI in marketing",
+            "AI in education"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "From Sketches to Motion - The Magic of AI Animation",
+        "category": "AI Video and Animation",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Overview",
+        "summary": "AI enables students to bring drawings and stories to life through animation in minutes, making static ideas dynamic and engaging.",
+        "content": "Animation used to be something that required professional software, expensive tools, and weeks, sometimes months, of effort. But thanks to AI, even students can now bring their drawings and stories to life in minutes. Think about this: you draw a simple solar system diagram. Normally, that's where it ends, just a drawing on paper. But with AI, you can upload that sketch and watch the planets start orbiting the sun in a smooth animated loop. That's not just more fun, it's also a more powerful way to learn, explain, and share your ideas. This is the power of AI animation tools: they turn static ideas into dynamic visual stories. Whether it's a comic strip, a history timeline, or a science process, animation makes information more engaging and memorable. And you don't need to be an animator, your imagination and a clear prompt are enough.",
+        "keywords": [
+            "AI animation",
+            "motion graphics",
+            "animated storytelling",
+            "visual engagement",
+            "dynamic learning",
+            "sketch animation"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "RunwayML - The AI Animation Studio",
+        "category": "AI Video and Animation",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "RunwayML is a powerful AI tool for creating and editing videos that can animate static images or hand-drawn sketches into motion.",
+        "content": "RunwayML is one of the most powerful AI tools for creating and editing videos. Its most exciting feature for students is that it can animate static images or hand-drawn sketches, meaning anything you create on paper or digitally can be transformed into motion. Here's how it works: Step 1: Start with a Sketch. Draw something simple like a butterfly, volcano, or a historical figure. Step 2: Describe the Motion. Type a prompt like, Animate the butterfly flapping its wings gently. Step 3: Generate the Animation. AI brings your drawing to life with realistic motion. Student Project Ideas: Animate the water cycle for a science project. Turn a comic panel into a short animated scene. Bring a historical character to life and make them talk in a presentation. Pro Tip: Combine RunwayML with prompt skills. The more specific your motion prompt is, walks slowly, flies quickly in circles, explodes dramatically, the more accurate and creative the animation will be.",
+        "keywords": [
+            "RunwayML",
+            "animation tool",
+            "video creation",
+            "sketch animation",
+            "motion generation",
+            "AI video editing"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Storytelling Through Animation - Beyond Just Movement",
+        "category": "AI Video and Animation",
+        "level": "All (Grades 6-12)",
+        "type": "Application",
+        "summary": "Animation is about telling stories. Students can write scenes and turn them into mini-movies with characters, dialogue, and action.",
+        "content": "Animation is not just about things moving, it's about telling a story. And storytelling is one of the most powerful ways to learn and teach. With AI, students can write a short story or a scene and then turn it into a mini-movie with characters, dialogue, and action. For example: English Project: Turn a short story into a 2-minute animated film. Science Project: Animate a process like photosynthesis or chemical reactions. History Project: Recreate a historical event visually for a presentation. This helps students move beyond traditional methods like writing essays or making posters. Instead, they learn how to communicate ideas visually, which is a skill used in industries like filmmaking, advertising, and education.",
+        "keywords": [
+            "animated storytelling",
+            "visual narrative",
+            "story animation",
+            "educational animation",
+            "visual communication",
+            "narrative skills"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Pictory - Turn Text Into Video in Minutes",
+        "category": "AI Video and Animation",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "Pictory turns written content into complete videos with scenes, narration, and captions, perfect for summarizing complex topics visually.",
+        "content": "While RunwayML focuses on animation, Pictory is all about turning written content into complete videos, with scenes, narration, and even captions. Students can paste in a report, article, or essay, and Pictory will automatically convert it into a video presentation. This is perfect for students who want to summarize complex topics visually or make their school projects more dynamic. Example Uses: Convert a history chapter into a narrated video timeline. Turn a geography project into an animated explainer. Summarize long class notes as a short revision video. Pro Tip: Always review the auto-generated script and edit it slightly to sound more natural and engaging. You're the director, AI is just your assistant.",
+        "keywords": [
+            "Pictory",
+            "text to video",
+            "video creation",
+            "narration",
+            "explainer videos",
+            "content conversion",
+            "video summarization"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Combining Tools for Bigger Projects",
+        "category": "AI Video and Animation",
+        "level": "All (Grades 6-12)",
+        "type": "Advanced Application",
+        "summary": "Students can combine multiple AI tools to build complete creative projects by using different tools for different stages of production.",
+        "content": "Here's where things get exciting: you can combine multiple AI tools to build complete creative projects. Imagine this workflow: Use Midjourney to design characters for a story. Use RunwayML to animate those characters. Use Pictory to narrate and assemble everything into a full video. This is how creative professionals build movies, ads, and explainer content, and students can do the same with no prior experience. It's a powerful way to show that AI is not a single tool but an ecosystem that works together.",
+        "keywords": [
+            "tool combination",
+            "workflow integration",
+            "multi-tool projects",
+            "production pipeline",
+            "creative ecosystem",
+            "professional workflow"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "From Class Projects to Digital Portfolios",
+        "category": "AI Video and Animation",
+        "level": "All (Grades 6-12)",
+        "type": "Career Development",
+        "summary": "AI-powered video creation helps students build digital portfolios showcasing creativity and skills for competitions, exhibitions, and applications.",
+        "content": "AI-powered video creation is not just useful for classwork, it's also a way for students to build digital portfolios that showcase their creativity and skills. Imagine a folder filled with animated explainers, short films, and video projects you created entirely with AI. That portfolio can be used for competitions, exhibitions, online profiles, or even college applications. And because every video you make involves writing prompts, directing visuals, and crafting a story, you're not just creating content, you're building valuable skills in communication, storytelling, and digital literacy.",
+        "keywords": [
+            "digital portfolio",
+            "career skills",
+            "showcase work",
+            "creative portfolio",
+            "professional development",
+            "skill building"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Real-World Use of AI in Video Creation",
+        "category": "AI Video and Animation",
+        "level": "All (Grades 6-12)",
+        "type": "Industry Applications",
+        "summary": "Film studios, educational platforms, social media creators, and teachers use AI for pre-visualization, educational content, engaging videos, and custom lessons.",
+        "content": "Film Studios use AI for pre-visualization, creating animated storyboards before filming begins. Educational Platforms use AI videos to explain complex topics visually. Social Media Creators use AI to make short, engaging videos quickly. Teachers create custom video lessons without expensive tools. By learning these skills now, students prepare for the kinds of tools and workflows they'll use in real creative jobs in the future.",
+        "keywords": [
+            "industry applications",
+            "professional use",
+            "video production",
+            "educational technology",
+            "content creation",
+            "career preparation"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Why Sound Matters in Creativity",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "Music and sound design give stories their emotional power. AI can generate music in minutes, tailored to your project's mood and style.",
+        "content": "Think about your favorite movie. Now imagine watching it without music. Suddenly, the action scene feels flat, the emotional moment doesn't hit as hard, and the suspense is gone. Music and sound design are what give stories their emotional power. Traditionally, composing music meant years of training, expensive instruments, and professional studios. But today, AI can generate music in minutes, tailored to your project's mood and style. This doesn't replace musicians, it gives students and creators a way to explore sound without barriers. For students, this means you can add professional-quality soundtracks to your videos, school projects, or even events, all by describing what you want in words. AI turns your ideas into melodies, beats, and full tracks instantly.",
+        "keywords": [
+            "music importance",
+            "sound design",
+            "emotional impact",
+            "AI music",
+            "audio creation",
+            "accessible music"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Soundraw - Mood-Based Music Creation",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "Soundraw lets anyone compose original, copyright-free music by choosing mood, genre, and length without worrying about chords and instruments.",
+        "content": "Soundraw is a tool that lets anyone compose original, copyright-free music by choosing just three things: mood, genre, and length. Instead of worrying about chords and instruments, you simply guide the AI with the feeling you want your music to create. Example Uses: Add inspiring background music to a science fair video. Create suspenseful music for a mystery short story project. Make intro and outro music for a podcast or school event. Prompt Examples: Create a cheerful pop track for a school campaign. Compose an inspiring orchestral track for a science documentary. Generate relaxing lo-fi music for background study sessions. Why it's great for students: It shows how music can completely change the mood of a project, even if you've never composed before.",
+        "keywords": [
+            "Soundraw",
+            "music creation",
+            "mood-based music",
+            "copyright-free music",
+            "AI composer",
+            "soundtrack generation"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Beatoven - Music by Mood and Genre",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "Beatoven allows you to change the mood within a single track, creating dynamic soundtracks that shift emotions as your story changes.",
+        "content": "Beatoven is another AI music tool, but it adds an interesting twist: you can change the mood within a single track. This means you can create dynamic soundtracks that shift emotions as your story changes. Example Uses: Start with a calm mood for a narration, then build suspense for a dramatic reveal. Create background scores for podcasts with changing tones. Make multi-scene video projects feel more cinematic. Prompt Examples: Compose an ambient soundtrack that shifts from peaceful to suspenseful. Generate an electronic beat that transitions from playful to dramatic. Why it's great for students: It teaches them how sound design influences storytelling, an important creative skill for filmmakers, writers, and presenters.",
+        "keywords": [
+            "Beatoven",
+            "dynamic music",
+            "mood transitions",
+            "soundtrack design",
+            "adaptive audio",
+            "emotional storytelling"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "AI as Your Soundtrack Designer",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Application",
+        "summary": "Pairing visual projects with AI-generated soundtracks creates complete and professional-feeling creative work.",
+        "content": "When you pair visual projects like animations, posters, or videos with AI-generated soundtracks, the result feels more complete and professional. Students can: Add music to explainer videos using Pictory plus Soundraw. Create dramatic sound effects for animated science projects using RunwayML plus Beatoven. Design a whole creative package, visuals, narration, and music, without needing a full production team. This mirrors how creative industries work today. Even YouTubers and TikTok creators use AI music to quickly produce background tracks without worrying about copyright issues.",
+        "keywords": [
+            "soundtrack design",
+            "audio-visual integration",
+            "complete projects",
+            "professional production",
+            "creative packaging",
+            "copyright-free audio"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "The Science of Music and Emotion",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "Music is connected to how our brains process emotions. AI understands how tempo, rhythm, and instruments create specific moods.",
+        "content": "Why does AI music feel so powerful? Because music is connected to how our brains process emotions. A fast, upbeat track raises energy levels. A slow, soft tune makes us feel calm. A suspenseful beat makes us alert. AI tools are trained on thousands of music patterns, they understand how tempo, rhythm, and instruments create specific moods. When you say happy, AI chooses lively instruments and major chords. When you say mysterious, it uses minor chords and slower pacing. This gives students a simple way to explore the psychology of sound through hands-on experience.",
+        "keywords": [
+            "music psychology",
+            "emotional response",
+            "sound and emotion",
+            "tempo and mood",
+            "music theory",
+            "audio psychology"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Beyond Background Music - Creative Student Projects",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Application",
+        "summary": "Students can use AI music as a main creative element in projects like school anthems, podcasts, soundtracks, poetry performances, and event soundscapes.",
+        "content": "Students can use AI music not just as background noise but as a main creative element. Here are some ideas: Original School Anthem: Use Soundraw to compose a motivational anthem for your school. Podcast Series: Launch a student podcast with AI-generated intro and outro music. Mini-Movie Soundtrack: Create a soundtrack for your short film or animation. Poetry plus Music: Combine poetry reading with background AI music for performances. Event Soundscapes: Generate ambient music for exhibitions, annual days, or competitions. This transforms music from something in the background to a core part of student expression.",
+        "keywords": [
+            "creative music projects",
+            "student expression",
+            "original compositions",
+            "performance art",
+            "event music",
+            "creative applications"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Real-World Use of AI Music",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Industry Applications",
+        "summary": "Filmmakers, podcasters, game developers, and independent musicians use AI to test moods, avoid copyright issues, create adaptive soundtracks, and start songs.",
+        "content": "Filmmakers use AI to quickly test different moods before hiring composers. Podcasters use AI tracks to avoid copyright issues. Game Developers use AI to create mood-based soundtracks that change with gameplay. Independent Musicians use AI as a starting point for their songs. For students, this shows that the same tools they're experimenting with are already shaping industries. Learning them early builds confidence and skills for future careers.",
+        "keywords": [
+            "music industry",
+            "professional audio",
+            "career applications",
+            "industry tools",
+            "music production",
+            "AI in entertainment"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "The Role of Students as Creative Directors",
+        "category": "AI Music and Audio",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "AI doesn't replace human creativity in music, it enhances it. The student remains the director, choosing mood, flow, and story.",
+        "content": "AI doesn't replace human creativity in music, it enhances it. The student remains the director. You choose the mood, the flow, the story the music should tell. AI is the orchestra waiting for your command. This is a powerful lesson: you don't need to master every technical skill to express your ideas. Instead, you learn how to guide technology with creativity, a skill that will be essential in the future.",
+        "keywords": [
+            "creative direction",
+            "human-AI collaboration",
+            "creative control",
+            "artistic vision",
+            "technology guidance",
+            "future skills"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Why Visual Communication Matters",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "In a world with short attention spans, visuals grab attention immediately and make complex ideas easy to understand.",
+        "content": "We live in a world where attention spans are short and visuals matter more than ever. A page full of text might go unread, but a colorful poster or an engaging infographic grabs attention immediately and makes complex ideas easy to understand. For students, this skill is gold. Instead of handing in plain text assignments, you can turn them into eye-catching campaign posters, environmental awareness boards, or visual summaries of your science research. And with AI, you don't need to be a professional designer, your words and ideas are enough. AI bridges the gap between raw information and clear communication. It reads your prompt, understands your message, and transforms it into a design that's not only visually appealing but also effective in delivering the idea.",
+        "keywords": [
+            "visual communication",
+            "attention economy",
+            "information design",
+            "visual impact",
+            "accessible design",
+            "effective communication"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Ideogram - Your AI Graphic Designer",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "Ideogram turns ideas into clean, professional-looking posters and infographics by handling layouts, icons, typography, and color schemes.",
+        "content": "Ideogram is a creative AI tool focused on turning ideas into clean, professional-looking posters and infographics. All you need is a short description of the topic and the style you want, and Ideogram does the rest, from layouts and icons to typography and color schemes. Why students love it: No design skills required, just describe your project. Produces ready-to-print posters and digital graphics. Helps summarize long research into easy-to-read visuals. Example prompts: A bright, modern infographic explaining the water cycle, suitable for a 7th-grade science fair. A campaign poster promoting renewable energy with bold text and icons. A one-page infographic comparing plant and animal cells with labeled diagrams. Student Use Cases: Create science fair and exhibition posters. Turn survey data into beautiful visuals. Make awareness campaigns for school events. With Ideogram, what once took hours in tools like Photoshop or Canva can now be done in minutes, and the result often looks even better.",
+        "keywords": [
+            "Ideogram",
+            "graphic design",
+            "poster creation",
+            "infographic design",
+            "visual design",
+            "AI designer",
+            "layout design"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "KREA - Real-Time Design Playground",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Tool Overview",
+        "summary": "KREA generates visuals as you type, allowing real-time experimentation, instant feedback, and style mixing for rapid design.",
+        "content": "KREA takes creativity one step further by generating visuals as you type. This means you can watch your poster evolve in real time and make quick changes without starting over. It's perfect for experimentation and rapid design. What makes KREA exciting for students: Instant feedback: See how changing one word changes the design. Style mixing: Combine different art styles like watercolor plus pixel art. Perfect for campaigns: Create eye-catching visuals for school events and causes. Example prompts: An Earth Day poster with watercolor art style and hand-drawn typography. A futuristic science exhibition banner with bold neon elements. An infographic explaining Newton's laws, minimal and educational. Student Use Cases: Design class event posters in real time. Experiment with different art styles for projects. Learn how prompt changes impact design instantly. This real-time feedback loop teaches students how iteration works, the process of refining and improving designs step by step.",
+        "keywords": [
+            "KREA",
+            "real-time design",
+            "instant feedback",
+            "style experimentation",
+            "rapid prototyping",
+            "interactive design",
+            "design iteration"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Turning Data Into Stories",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Application",
+        "summary": "AI design tools transform numbers and facts into engaging visual stories using charts, icons, and illustrations.",
+        "content": "One of the most powerful uses of AI design tools is transforming numbers and facts into stories. Data on its own can be boring or confusing. But presented visually, with charts, icons, and illustrations, it becomes engaging and easy to understand. Example: Instead of writing, 70% of Earth is covered by water, a student can use Ideogram to design a circular infographic showing Earth's surface divided into water and land. That single image communicates the fact instantly and clearly. This is incredibly useful for subjects like: Science: ecosystems, life cycles, and processes. Math: data representation and statistics. Geography: population, resources, or climate patterns. History: timelines and comparisons.",
+        "keywords": [
+            "data storytelling",
+            "visual data",
+            "information graphics",
+            "data communication",
+            "visual learning",
+            "statistical visualization"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Design Principles Students Learn Through AI",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Skill Development",
+        "summary": "While AI handles technical work, students naturally learn design principles including color psychology, balance, typography, and visual hierarchy.",
+        "content": "Even though AI handles the heavy lifting, students still make creative decisions. In the process, they naturally learn design principles such as: Color psychology: How different colors affect mood and meaning. Balance and alignment: How to arrange elements so they look clean. Typography: How fonts communicate tone. Visual hierarchy: How to guide the viewer's attention. These are real-world design skills that professionals use, and students pick them up while having fun experimenting with AI tools.",
+        "keywords": [
+            "design principles",
+            "color psychology",
+            "typography",
+            "visual hierarchy",
+            "layout design",
+            "design education",
+            "professional skills"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Creative Project Ideas Using Ideogram and KREA",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Project Ideas",
+        "summary": "Students can apply design tools to create science infographics, awareness campaigns, space posters, geography projects, and event posters.",
+        "content": "Here are some exciting ways students can apply these tools: Science Infographic: Photosynthesis explained in 5 steps, simple icons and flowchart. Awareness Campaign Poster: Say No to Plastic, bold typography, impactful imagery. Space Exploration Poster: Timeline of Moon Missions, illustrated milestones. Geography Project: Top 5 Renewable Energy Sources, visual comparison chart. Event Poster: Annual Day Celebration, dynamic layout with school branding. These projects not only improve creativity but also make learning visible, interactive, and memorable.",
+        "keywords": [
+            "project ideas",
+            "student projects",
+            "creative applications",
+            "visual projects",
+            "hands-on learning",
+            "practical design"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Real-World Use of Poster Design with AI",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Industry Applications",
+        "summary": "AI-powered design tools are used in advertising, education, social media, and research for generating visuals, creating materials, designing content, and presenting data.",
+        "content": "AI-powered design tools like Ideogram and KREA are already used in: Advertising: Companies generate ad visuals and campaign banners in seconds. Education: Teachers create visual lesson materials quickly. Social Media: Creators design posters for Instagram, YouTube thumbnails, and digital flyers. Research: Scientists turn data into visual summaries for presentations. Learning how to use these tools means students are mastering the same skills professionals rely on, skills that are valuable far beyond the classroom.",
+        "keywords": [
+            "professional design",
+            "industry applications",
+            "career skills",
+            "real-world tools",
+            "design careers",
+            "visual communication"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Why Visual Design Completes the Creativity Puzzle",
+        "category": "Posters Infographics and Design",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Understanding",
+        "summary": "Visual design helps communicate ideas clearly and creates strong first impressions for projects, making ideas stand out in any setting.",
+        "content": "Art and animation help us tell stories, music adds emotion, but visual design helps us communicate ideas clearly. Posters and infographics are often the first impression people get of your project, and with AI, they can look as good as those made by professional designers. This is why learning tools like Ideogram and KREA is so powerful: they teach students how to think visually, simplify complex topics, and make their ideas stand out in any setting, from classroom walls to science exhibitions.",
+        "keywords": [
+            "visual design importance",
+            "first impressions",
+            "clear communication",
+            "visual thinking",
+            "idea presentation",
+            "professional appearance"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Why Projects Matter - From Learning to Doing",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Conceptual Overview",
+        "summary": "True learning happens when you use AI tools to create something. Projects help students apply knowledge, experiment with prompts, and express creativity.",
+        "content": "Understanding AI tools is great, but true learning happens when you use them to create something. Projects let students apply knowledge, experiment with prompts, and express creativity while solving real-world problems. In this part of the module, students are not just learning about AI, they are acting like creators, artists, filmmakers, and designers. Every project becomes a chance to: Practice prompt writing. Experiment with multiple tools. Collaborate and present ideas. Build confidence in using AI for real outcomes. And the best part? Each project is designed to be achievable within a few hours or a class period, even by beginners.",
+        "keywords": [
+            "hands-on learning",
+            "project-based learning",
+            "practical application",
+            "skill building",
+            "creative confidence",
+            "experiential learning"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Project 1 - Superhero Poster Design",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Project Blueprint",
+        "summary": "Create a unique superhero character using AI image-generation tools and design a promotional poster for them.",
+        "content": "Goal: Create a unique superhero character using AI image-generation tools and design a promotional poster for them. Tools: Midjourney or DALL·E plus Ideogram or KREA. Steps: Step 1: Write a detailed prompt describing your superhero, powers, costume, setting, mood. Step 2: Generate the character image using Midjourney or DALL·E. Step 3: Use Ideogram or KREA to design a poster introducing your hero, including their name, tagline, and mission. Example Prompt: A teenage superhero with lightning powers wearing a futuristic suit, standing on a skyscraper roof during a thunderstorm, comic-book style. Skills learned: Prompt engineering, visual design, character development. Classroom use: English storytelling, Art character design, Social Studies create a hero for a cause.",
+        "keywords": [
+            "superhero design",
+            "character creation",
+            "poster design",
+            "creative project",
+            "visual storytelling",
+            "prompt practice"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Project 2 - Animated Science Explainer",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Project Blueprint",
+        "summary": "Turn a science topic into a short animated explainer video using RunwayML and Pictory.",
+        "content": "Goal: Turn a science topic into a short animated explainer video. Tools: RunwayML plus Pictory. Steps: Step 1: Choose a topic like Photosynthesis, Water Cycle, or Newton's Laws. Step 2: Write a short script explaining the concept in simple words. Step 3: Use RunwayML to animate diagrams or visuals. Step 4: Use Pictory to assemble scenes, add narration, and generate the final video. Example: Animate the process of evaporation and condensation step by step. Skills learned: Visual storytelling, concept simplification, science communication. Classroom use: Science presentations, revision tools, school exhibitions.",
+        "keywords": [
+            "science animation",
+            "explainer video",
+            "educational video",
+            "visual learning",
+            "science communication",
+            "animation project"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Project 3 - Create a Theme Soundtrack",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Project Blueprint",
+        "summary": "Compose original music that matches a specific mood, story, or video using Soundraw and Beatoven.",
+        "content": "Goal: Compose original music that matches a specific mood, story, or video. Tools: Soundraw plus Beatoven. Steps: Step 1: Choose the mood, inspiring, mysterious, dramatic, peaceful. Step 2: Use Soundraw to create a base track. Step 3: Use Beatoven to adjust the mood or add transitions. Step 4: Pair it with a video, animation, or slideshow. Example: Create a suspenseful background track for a mystery story animation. Skills learned: Mood design, storytelling with sound, sound editing. Classroom use: Drama and film projects, podcasts, school announcements.",
+        "keywords": [
+            "music composition",
+            "soundtrack creation",
+            "mood design",
+            "audio project",
+            "sound storytelling",
+            "creative audio"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Project 4 - Awareness Campaign Poster",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Project Blueprint",
+        "summary": "Design a campaign poster on a social or environmental issue using Ideogram and KREA.",
+        "content": "Goal: Design a campaign poster on a social or environmental issue. Tools: Ideogram plus KREA. Steps: Step 1: Choose a topic like plastic pollution, renewable energy, cyber safety. Step 2: Write a clear prompt describing your poster's message, tone, and style. Step 3: Add statistics, icons, and slogans. Step 4: Print and display it around school or present it digitally. Example Prompt: A bold, modern poster raising awareness about ocean plastic pollution, using striking imagery of marine animals and clear data. Skills learned: Research, data visualization, persuasive communication. Classroom use: Environmental science, social studies, civic awareness projects.",
+        "keywords": [
+            "awareness campaign",
+            "social issues",
+            "environmental advocacy",
+            "persuasive design",
+            "civic engagement",
+            "campaign poster"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Project 5 - Story Universe Builder",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Project Blueprint",
+        "summary": "Use AI to create a fictional world, complete with characters, settings, and visuals using Midjourney, RunwayML, and Soundraw.",
+        "content": "Goal: Use AI to create a fictional world, complete with characters, settings, and visuals. Tools: Midjourney plus RunwayML plus Soundraw. Steps: Step 1: Write a story concept like a time-traveling explorer in the year 3025. Step 2: Generate visuals of locations, characters, and objects. Step 3: Animate a key scene with RunwayML. Step 4: Add an original soundtrack with Soundraw. Example: A 2-minute short film set in a floating city in the future. Skills learned: Storytelling, world-building, multi-tool integration. Classroom use: English creative writing, art projects, interdisciplinary exhibitions.",
+        "keywords": [
+            "world-building",
+            "story creation",
+            "multi-media project",
+            "creative universe",
+            "integrated project",
+            "storytelling"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Mini Creative Challenges",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Quick Activities",
+        "summary": "Short classroom activities for quick practice including speed prompt challenges, image remixes, quick posters, and prompt chains.",
+        "content": "For quick practice or classroom activities: Speed Prompt Challenge: Students compete to write the most creative prompt in 2 minutes. Remix This Image: Give one AI-generated image and have students write new prompts to transform it. Poster in 15 Minutes: Create a quick campaign poster with Ideogram or KREA. Prompt Chain: One student writes the start of a story, others build on it using AI visuals and text. These small challenges build confidence, speed, and creativity, and make learning interactive and fun.",
+        "keywords": [
+            "quick activities",
+            "classroom challenges",
+            "creative exercises",
+            "interactive learning",
+            "skill practice",
+            "engagement activities"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Building a Digital Portfolio",
+        "category": "Project Blueprints and Challenges",
+        "level": "All (Grades 6-12)",
+        "type": "Career Development",
+        "summary": "Students should save all projects into a digital portfolio that acts as a creative resume for exhibitions, competitions, applications, and showcases.",
+        "content": "Students should save all their projects, images, animations, videos, posters, music, into a digital portfolio. This acts as a creative resume showing what they've learned. It can be shared during: School exhibitions. Competitions. College applications. Online creative showcases. A portfolio turns short projects into lasting proof of skill, and helps students see how far they've grown.",
+        "keywords": [
+            "digital portfolio",
+            "creative resume",
+            "work showcase",
+            "skill documentation",
+            "career preparation",
+            "project collection"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Why Responsibility Matters in AI Creativity",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Ethical Foundation",
+        "summary": "AI is powerful and must be used wisely. Responsibility prevents sharing false information, using others' work without permission, generating harmful content, and lacking critical thinking.",
+        "content": "AI is powerful, and like all powerful tools, it must be used wisely. Just as we learn safety rules before driving a car or handling science lab equipment, we must learn responsible use before creating with AI. Creativity is exciting, but without responsibility it can lead to problems like: Sharing false or misleading information. Using someone else's work without permission. Generating harmful or inappropriate content. Forgetting to think critically about what AI produces. This part of the module teaches students that AI is a tool, not a toy. It's meant to amplify creativity, not misuse it. Being a responsible creator means using AI to express ideas, solve problems, and make the world better, while following ethical principles and respecting others.",
+        "keywords": [
+            "responsible AI use",
+            "ethical creativity",
+            "digital responsibility",
+            "AI ethics",
+            "safe practices",
+            "critical thinking"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Golden Rules of Responsible AI Use",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Guidelines",
+        "summary": "Five key principles: Think before you create, fact-check and verify, respect originality and copyright, protect privacy, and be transparent.",
+        "content": "Here are five key principles every student should follow when creating with AI: Rule 1: Think Before You Create. Always ask yourself: Is what I'm creating helpful, kind, and respectful? If not, rethink your idea. Rule 2: Fact-Check and Verify. AI can make mistakes or hallucinate, producing information that isn't true. Always double-check facts from reliable sources before including them in projects. Rule 3: Respect Originality and Copyright. Never copy someone else's art, writing, or music without credit. If AI generates content inspired by someone else's work, mention the tool you used and the original creator if known. Rule 4: Protect Privacy. Never upload personal data like addresses, school names, or photos of others without consent into AI tools. Treat your digital safety as seriously as your physical safety. Rule 5: Be Transparent. If you use AI to help with your project, say so. It's not cheating, it's smart. A simple note like Poster designed with Ideogram AI shows honesty and digital literacy.",
+        "keywords": [
+            "ethical guidelines",
+            "responsible creation",
+            "AI safety",
+            "fact-checking",
+            "copyright respect",
+            "privacy protection",
+            "transparency"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Critical Thinking - Don't Believe Everything AI Says",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Critical Skill",
+        "summary": "AI is smart but not perfect. Critical thinking is essential for verifying information, checking sources, and ensuring logical sense.",
+        "content": "AI is smart, but not perfect. Sometimes it will give you information that sounds confident but is completely wrong. This is why critical thinking is one of the most important skills to build as a student creator. Whenever AI gives you a fact, ask yourself: Where does this information come from? Can I verify it with a reliable source? Does it make logical sense? Example: If AI says, The Moon is closer to Earth than the Sun, that's true. But if it says, The Moon is bigger than the Earth, that's false, and you should fact-check it before including it in your project. Tip: For research projects, always cross-verify AI content with textbooks, teacher notes, or trusted websites like .edu, .gov, or reputable organizations.",
+        "keywords": [
+            "critical thinking",
+            "fact verification",
+            "AI accuracy",
+            "information literacy",
+            "source evaluation",
+            "logical reasoning"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Avoiding Bias and Harmful Content",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Ethical Practice",
+        "summary": "AI learns from internet data which sometimes includes biases or stereotypes. Creators must spot and stop offensive or unfair content.",
+        "content": "AI learns from data on the internet, and that data sometimes includes biases or stereotypes. This means AI might unintentionally create content that's offensive or unfair. As creators, it's our responsibility to spot and stop that. If a generated image stereotypes a group of people, reject and re-prompt. If a result seems biased, rewrite the prompt to be more inclusive. Avoid prompts that could lead to harmful, violent, or hateful content. Example: Instead of saying Draw a scientist, you might say Draw a scientist of any gender working in a modern laboratory. This encourages diversity and inclusion in your results.",
+        "keywords": [
+            "bias awareness",
+            "inclusive design",
+            "stereotype avoidance",
+            "ethical content",
+            "diversity",
+            "responsible prompting"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Ethics in Creative Projects - Respecting Others",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Ethical Practice",
+        "summary": "Being ethical means treating others' ideas, work, and culture with respect by crediting tools, avoiding mockery, citing sources, and refusing harmful content.",
+        "content": "Being ethical means treating others' ideas, work, and culture with respect. In the context of AI creativity: Don't claim AI-generated work as entirely your own, credit the tool. Don't use AI to imitate or mock someone. Always cite facts and images you use in projects. Never generate harmful or misleading content intentionally. Example Scenario: Wrong: Using AI to generate a fake news poster about a classmate. Right: Using AI to design a campaign poster promoting kindness and anti-bullying in school. The difference is the intention behind your creation.",
+        "keywords": [
+            "ethical behavior",
+            "respect",
+            "proper attribution",
+            "responsible creation",
+            "intention matters",
+            "positive impact"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Real-World Scenarios to Discuss",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Case Studies",
+        "summary": "Real-life-inspired examples help build judgment skills for handling fact-checking, transparency, and proper attribution in AI projects.",
+        "content": "Let's look at a few real-life-inspired examples to build judgment skills: Scenario 1: You use AI to create a video about climate change. It includes a fact that isn't true. What to do: Cross-check the fact and correct it before presenting. Scenario 2: You use an AI tool to make a poster but don't mention that AI helped. What to do: Add a note like Created using Ideogram AI to stay transparent. Scenario 3: Your project uses a photo generated from someone else's art without credit. What to do: Always credit original creators if known, or clearly mention AI-generated. These examples help students develop a habit of pausing and thinking ethically before sharing their work.",
+        "keywords": [
+            "ethical scenarios",
+            "case studies",
+            "decision making",
+            "practical ethics",
+            "judgment skills",
+            "ethical reasoning"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Responsible Creativity as a Future Skill",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Career Preparation",
+        "summary": "Being responsible with AI is a future-ready skill valued by employers, universities, and organizations for verification, transparency, and ethical work.",
+        "content": "Being responsible with AI isn't just about school rules, it's a future-ready skill. As AI becomes part of every career from design and filmmaking to science and engineering, people who can use AI creatively and ethically will stand out. Employers, universities, and organizations are already looking for individuals who: Understand how to verify AI-generated content. Use AI tools transparently and responsibly. Respect privacy, diversity, and fairness in creative work. Learning these habits early prepares students to be thoughtful digital citizens and innovative creators in the AI-driven world ahead.",
+        "keywords": [
+            "future skills",
+            "career readiness",
+            "digital citizenship",
+            "professional ethics",
+            "workplace skills",
+            "responsible innovation"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Classroom Activities for Ethical Thinking",
+        "category": "Responsible Creativity and Ethics",
+        "level": "All (Grades 6-12)",
+        "type": "Teaching Activities",
+        "summary": "Interactive ideas including spot the fake, rewrite the prompt, ethics debates, and credit checking to reinforce responsible AI use.",
+        "content": "Here are some quick interactive ideas teachers can use to reinforce responsible use: Spot the Fake: Show students AI-generated facts or images and ask them to identify errors. Rewrite the Prompt: Give a biased prompt and let students rewrite it inclusively. Ethics Debate: Split the class into groups to debate an ethical scenario involving AI creativity. Credit the AI: Students review projects and check if proper AI credit was given. These activities help students practice ethical decision-making in real situations.",
+        "keywords": [
+            "classroom activities",
+            "ethics education",
+            "interactive learning",
+            "critical thinking exercises",
+            "teacher resources",
+            "ethical practice"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Why Learning AI Creativity Now Is a Superpower",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Preparation",
+        "summary": "Learning AI creativity at school level gives students a huge head start for jobs and opportunities that will define the next 20 to 30 years.",
+        "content": "The world is changing faster than ever before. Just a few years ago, jobs like AI Artist, Prompt Engineer, or Virtual Avatar Creator didn't even exist, and now they're some of the most in-demand creative roles globally. Learning how to use AI for creativity at the school level gives students a huge head start. It's like learning how to code before everyone else did in the early 2000s. By mastering prompt writing, creative tool use, ethical thinking, and storytelling with AI now, students are preparing for jobs and opportunities that will define the next 20 to 30 years. AI isn't replacing creativity, it's amplifying it. And the people who know how to guide and collaborate with AI will be the ones leading the future of art, entertainment, education, and technology.",
+        "keywords": [
+            "future careers",
+            "career preparation",
+            "AI skills",
+            "competitive advantage",
+            "career readiness",
+            "future opportunities"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Essential Future Skills Students Build in This Module",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Skill Development",
+        "summary": "Students develop prompt literacy, creative thinking, design thinking, critical thinking, tool fluency, and collaboration skills that are transferable across careers.",
+        "content": "Here are the key future-ready skills students develop through AI creativity projects: Prompt Literacy: The ability to talk to AI effectively, a skill now valued as much as coding. Creative Thinking: Learning to express ideas visually, musically, and narratively. Design Thinking: Breaking problems into creative solutions and visual communication. Critical Thinking: Fact-checking and making ethical decisions in creative work. Tool Fluency: Becoming comfortable with cutting-edge AI platforms used in industries. Collaboration and Presentation: Working in teams and presenting creative ideas effectively. These are transferable skills, they apply across careers, from marketing and media to science and engineering.",
+        "keywords": [
+            "transferable skills",
+            "future-ready skills",
+            "prompt literacy",
+            "creative thinking",
+            "design thinking",
+            "critical thinking",
+            "collaboration"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "AI Artist and Designer Career",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Path",
+        "summary": "AI artists combine creativity with AI tools to produce original digital artwork, concept art, brand visuals, working in advertising, film, gaming, and NFT art.",
+        "content": "AI artists combine creativity with AI tools to produce original digital artwork, concept art, brand visuals, and more. They work in advertising, film, gaming, and even NFT art. Example: Create character designs for a new video game using Midjourney and DALL·E.",
+        "keywords": [
+            "AI artist",
+            "digital art career",
+            "concept art",
+            "creative career",
+            "visual design career",
+            "game art"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Prompt Engineer Career",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Path",
+        "summary": "Prompt engineers are experts in writing precise and powerful instructions that guide AI to produce specific outcomes, hired by companies to improve AI-generated content.",
+        "content": "Prompt engineers are experts in writing precise and powerful instructions that guide AI to produce specific outcomes. Companies now hire them to improve AI-generated art, text, music, and even code. Example: Writing optimized prompts for a fashion brand's AI-generated campaigns.",
+        "keywords": [
+            "prompt engineer",
+            "AI specialist",
+            "prompt writing career",
+            "AI optimization",
+            "emerging career",
+            "technical writing"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "AI Video Producer and Animator Career",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Path",
+        "summary": "AI video producers use tools like RunwayML and Pictory to produce animations, explainer videos, and short films, in demand in education, entertainment, and digital marketing.",
+        "content": "These professionals use tools like RunwayML and Pictory to produce animations, explainer videos, and even short films. They're in demand in education, entertainment, and digital marketing. Example: Creating short AI-animated ads for social media or explainer videos for companies.",
+        "keywords": [
+            "video producer",
+            "animator",
+            "video creation career",
+            "animation career",
+            "content production",
+            "digital media"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "AI Music Composer and Sound Designer Career",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Path",
+        "summary": "Sound designers use AI tools like Soundraw and Beatoven to create background scores, soundtracks, and audio effects for games, apps, and videos.",
+        "content": "Sound designers use AI tools like Soundraw and Beatoven to create background scores, soundtracks, and audio effects for games, apps, and videos. Example: Composing mood-based soundtracks for indie games or podcasts.",
+        "keywords": [
+            "music composer",
+            "sound designer",
+            "audio career",
+            "music production",
+            "soundtrack creation",
+            "audio engineering"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Creative Educator and AI Coach Career",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Path",
+        "summary": "Teachers and educators who understand AI creativity help students and organizations integrate these tools into learning and innovation.",
+        "content": "Teachers and educators who understand AI creativity help students and organizations integrate these tools into learning and innovation. Example: Designing AI-powered creative curriculum for schools or workshops.",
+        "keywords": [
+            "creative educator",
+            "AI coach",
+            "education career",
+            "curriculum design",
+            "training specialist",
+            "educational technology"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "AI Content Creator and Social Media Designer Career",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Path",
+        "summary": "Creators use AI to generate content faster, from visuals and captions to music and video, opening doors to building channels, educational content, and personal brands.",
+        "content": "Creators use AI to generate content faster, from visuals and captions to music and video. This opens doors to building YouTube channels, educational content, and personal brands. Example: Running a YouTube channel with AI-generated videos and infographics.",
+        "keywords": [
+            "content creator",
+            "social media designer",
+            "digital content career",
+            "influencer",
+            "online creator",
+            "digital marketing"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "AI Entrepreneur and Startup Founder Career",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Path",
+        "summary": "With AI creativity skills, students can start their own ventures, building AI-powered creativity apps, offering design services, or creating digital products.",
+        "content": "With these skills, students can even start their own ventures, building AI-powered creativity apps, offering design services, or creating digital products. Example: Launching a small business offering AI-designed posters, animations, and logos.",
+        "keywords": [
+            "entrepreneur",
+            "startup founder",
+            "business creation",
+            "AI ventures",
+            "self-employment",
+            "innovation"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Real-World Examples of AI Creativity Careers",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Industry Examples",
+        "summary": "Netflix, Pixar, Disney, game studios, and YouTubers use AI to design promotional materials, speed up workflows, generate content, and automate production.",
+        "content": "Netflix uses AI to help design promotional posters and analyze audience preferences. Pixar and Disney experiment with AI to speed up concept art and animation workflows. Game studios use AI to generate characters, music, and story environments. YouTubers and creators use AI to automate video editing, scriptwriting, and thumbnails. This shows students that what they're learning isn't just a fun activity, it's exactly what professionals use every day.",
+        "keywords": [
+            "industry examples",
+            "professional applications",
+            "real-world use",
+            "entertainment industry",
+            "creative industries",
+            "professional tools"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Future of Work - AI Plus Human Creativity",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Outlook",
+        "summary": "In the future, almost every creative job will involve collaboration between humans and AI, with AI handling technical work and humans focusing on ideas, direction, ethics, and storytelling.",
+        "content": "In the future, almost every creative job will involve collaboration between humans and AI. The AI will handle technical work, generating drafts, visuals, or soundtracks, while humans will focus on ideas, direction, ethics, and storytelling. This means students who master both creativity and AI will be in the driver's seat. They won't be replaced by technology, they'll be the ones leading it.",
+        "keywords": [
+            "future of work",
+            "human-AI collaboration",
+            "creative careers",
+            "job evolution",
+            "career leadership",
+            "technology integration"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Entrepreneurship Opportunities for Students",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Business Opportunities",
+        "summary": "Students can use AI creatively to sell digital art, create custom designs, offer video services, compose music, and build creative social media accounts even before finishing school.",
+        "content": "Even before finishing school, students can start using AI creatively to: Sell digital art online. Create custom posters and designs for events. Offer short video creation services. Compose background music for local creators. Build creative social media accounts using AI content. AI gives students a level playing field, they don't need expensive software or a big team. With imagination and skill, they can start creating and earning even as teenagers.",
+        "keywords": [
+            "student entrepreneurship",
+            "side business",
+            "creative business",
+            "freelancing",
+            "youth entrepreneurship",
+            "income opportunities"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Building a Future-Ready Portfolio",
+        "category": "Future Skills and Careers",
+        "level": "All (Grades 6-12)",
+        "type": "Career Development",
+        "summary": "Every project completed becomes part of a digital portfolio that showcases creativity, problem-solving, and technical skills for internships, competitions, and college applications.",
+        "content": "Every project students complete in this module, from posters and videos to music and campaigns, can go into a digital portfolio. Over time, that portfolio becomes a showcase of their creativity, problem-solving, and technical skills. When applying for internships, competitions, or colleges, this portfolio can make students stand out as future-ready innovators.",
+        "keywords": [
+            "portfolio building",
+            "career showcase",
+            "skill documentation",
+            "competitive advantage",
+            "college applications",
+            "professional presentation"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Looking Back - Your Creative AI Journey",
+        "category": "Recap and Reflection",
+        "level": "All (Grades 6-12)",
+        "type": "Module Summary",
+        "summary": "Students have explored AI creativity by learning to write powerful prompts, turn words into art, animate and tell stories, compose music, design infographics, and think critically and ethically.",
+        "content": "Congratulations, by reaching this point, you've explored one of the most exciting areas of Artificial Intelligence: creativity. In just a few lessons, you've gone from seeing AI as a smart tool to understanding it as a creative partner, one that can draw, write, animate, compose, design, and think with you. This module wasn't just about using apps. It was about learning how to: Write powerful prompts, the secret language that brings ideas to life. Turn words into art, using tools like Midjourney and DALL·E. Animate and tell stories, with RunwayML and Pictory. Compose original music, using Soundraw and Beatoven. Design infographics and posters, with Ideogram and KREA. Think critically and ethically, using AI responsibly and creatively. Each of these skills builds on the others. Together, they make you not just a user of AI, but a creator, designer, storyteller, and innovator.",
+        "keywords": [
+            "module summary",
+            "learning journey",
+            "skill reflection",
+            "achievement recognition",
+            "creative growth",
+            "module completion"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "From Passive Learner to Active Creator",
+        "category": "Recap and Reflection",
+        "level": "All (Grades 6-12)",
+        "type": "Transformation",
+        "summary": "Students are no longer limited by artistic skill, tools, or time. They are now equipped to bring any idea to life for school projects, competitions, or future businesses.",
+        "content": "Before this module, you may have seen AI as something that only tech experts or scientists use. Now, you know that creativity is for everyone, and AI can help you express it in new ways. You're no longer limited by artistic skill, AI can paint your imagination. You're no longer limited by tools, AI can animate, compose, and design for you. You're no longer limited by time, AI can turn weeks of work into minutes. This shift, from consumer to creator, is the most powerful thing you'll take away. You're now equipped to bring any idea to life, whether it's for a school project, a competition, or even a future business.",
+        "keywords": [
+            "transformation",
+            "empowerment",
+            "creative independence",
+            "skill mastery",
+            "mindset shift",
+            "creative confidence"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Reflection Activity - My AI Superpower",
+        "category": "Recap and Reflection",
+        "level": "All (Grades 6-12)",
+        "type": "Reflection Exercise",
+        "summary": "Students reflect on their learning by answering questions about their favorite tools, creative projects, imagination expression, and ethical rules.",
+        "content": "Take 5 minutes and write down answers to these questions: What was the most exciting tool you discovered in this module and why? What's one creative project you'd love to try using AI? How can AI help you express your imagination in ways you couldn't before? What is one ethical rule you'll always follow when using AI creatively? This reflection helps students connect emotionally with what they've learned and think about how they'll use it in their lives.",
+        "keywords": [
+            "reflection",
+            "self-assessment",
+            "learning review",
+            "personal connection",
+            "goal setting",
+            "ethical commitment"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "The Real Lesson - AI Is a Partner Not a Replacement",
+        "category": "Recap and Reflection",
+        "level": "All (Grades 6-12)",
+        "type": "Core Understanding",
+        "summary": "AI doesn't replace creativity, it amplifies it. AI doesn't think for you, it thinks with you. Your ideas still matter most.",
+        "content": "The biggest takeaway from this module is this: AI doesn't replace creativity, it amplifies it. It doesn't think for you. It thinks with you. It takes your spark of imagination and turns it into something real. Your ideas still matter most. The more original, thoughtful, and detailed they are, the more powerful your AI creations become. Think of AI as a paintbrush. A paintbrush can't create art on its own, but in your hands, it can create a masterpiece. The same is true for AI.",
+        "keywords": [
+            "core lesson",
+            "AI partnership",
+            "creativity amplification",
+            "human agency",
+            "creative control",
+            "fundamental understanding"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Your Next Steps as a Young Creator",
+        "category": "Recap and Reflection",
+        "level": "All (Grades 6-12)",
+        "type": "Action Plan",
+        "summary": "Students should practice prompting, explore more tools, build a portfolio, collaborate, and stay curious to continue building skills and confidence.",
+        "content": "Here's how you can keep building on what you learned: Practice Prompting: Try writing creative prompts daily, describe random objects, scenes, or stories. Explore More Tools: Experiment with new AI platforms beyond the ones in this module. Build a Portfolio: Save your AI-generated art, videos, posters, and music. Over time, it becomes proof of your creativity. Collaborate: Work with friends on group projects that combine your skills. Stay Curious: Follow AI creativity trends and see how artists and companies use these tools. Every small experiment builds skill. Every project builds confidence. And every creation takes you one step closer to becoming a future-ready innovator.",
+        "keywords": [
+            "next steps",
+            "continued learning",
+            "skill development",
+            "practice plan",
+            "growth strategy",
+            "ongoing improvement"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Final Words - You Are the Creator of the Future",
+        "category": "Recap and Reflection",
+        "level": "All (Grades 6-12)",
+        "type": "Inspirational Conclusion",
+        "summary": "AI is shaping the future but not replacing human creativity. Students who understand how to guide AI can create stories, build worlds, and solve problems in new ways.",
+        "content": "Artificial Intelligence is shaping the future of art, music, design, storytelling, and innovation. But it's not replacing human creativity, it's unlocking it. And you, as a student who understands how to guide AI, are part of that future. With your imagination and AI's capabilities, you can: Create stories no one has told. Build worlds no one has seen. Solve problems in ways no one has imagined. This is just the beginning of your creative AI journey. The skills you've gained here, prompt writing, tool mastery, critical thinking, ethical creativity, will grow with you and open doors you can't even imagine today.",
+        "keywords": [
+            "inspiration",
+            "future vision",
+            "creative potential",
+            "empowerment",
+            "limitless possibilities",
+            "journey beginning"
+        ],
+        "module_name": "module3_kb"
+    },
+    {
+        "topic": "Module 3 Complete - Welcome to AI Creativity Workshops",
+        "category": "Module Completion",
+        "level": "All (Grades 6-12)",
+        "type": "Conclusion",
+        "summary": "Module 3 complete. Students have learned to use AI to create art, animation, music, posters, and campaigns ethically, responsibly, and imaginatively, ready to step into the world as next-generation creators.",
+        "content": "Module 3: Welcome to AI Creativity Workshops, Complete. You've learned how to use AI to create art, animation, music, posters, campaigns, and more, ethically, responsibly, and imaginatively. You're now ready to step into the world as a next-generation creator.",
+        "keywords": [
+            "module completion",
+            "achievement",
+            "creative mastery",
+            "next-generation creator",
+            "AI literacy",
+            "creative competence",
+            "ready for future"
+        ],
+        "module_name": "module3_kb"
+    }
+]
