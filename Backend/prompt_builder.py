@@ -8,6 +8,7 @@ Backward-compatible signatures.
 import logging
 import re
 from typing import Dict, Any, List, Optional
+from Backend.models import Message
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -123,7 +124,7 @@ KB-first with minimal append:
         self.greeting_regex = re.compile('|'.join(self.GREETING_PATTERNS), re.IGNORECASE)
         self.farewell_regex = re.compile('|'.join(self.FAREWELL_PATTERNS), re.IGNORECASE)
 
-    def detect_intent(self, message: str, chat_history: Optional[List[Dict[str, Any]]] = None) -> Dict[str, Any]:
+    def detect_intent(self, message: str, chat_history: Optional[List[Message]] = None) -> Dict[str, Any]:
         if not message or not message.strip():
             return {"intent_type": "query", "is_continuation": False, "is_greeting": False, "is_farewell": False, "confidence": 0.0}
         text = message.strip()
@@ -178,14 +179,14 @@ KB-first with minimal append:
         section += "---\n\n"
         return section
 
-    def _format_chat_history(self, chat_history: Optional[List[Dict[str, Any]]]) -> str:
+    def _format_chat_history(self, chat_history: Optional[List[Message]]) -> str:
         if not chat_history:
             return ""
 
         formatted_history = "\n\n[Conversation History]:\n"
         for msg in chat_history:
-            role = "Student" if msg.get("role") == "human" else "AI Shine"
-            formatted_history += f'{role}: {msg.get("content", "")}\n'
+            role = "Student" if msg.role == "human" else "AI Shine"
+            formatted_history += f'{role}: {msg.content}\n'
         return formatted_history
 
     def build_user_prompt(
@@ -193,7 +194,7 @@ KB-first with minimal append:
         query: str,
         context_chunks: List[str],
         intent: Dict[str, Any],
-        chat_history: Optional[List[Dict[str, Any]]] = None,
+        chat_history: Optional[List[Message]] = None,
         is_presentation: bool = False,  # ignored
         show_module_citation: bool = False,
         module_names: Optional[List[str]] = None,
