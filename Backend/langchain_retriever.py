@@ -29,8 +29,7 @@ class LangChainMongoRetriever(BaseRetriever):
     similarity_threshold: float = 0.55
     max_results: int = 3 # Default upped to 5 for better recall
 
-    class Config:
-        arbitrary_types_allowed = True
+    model_config = {"arbitrary_types_allowed": True}
 
     def __init__(self, max_results: Optional[int] = None, **kwargs):
         """Initialize MongoDB vector search."""

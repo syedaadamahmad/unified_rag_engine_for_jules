@@ -1,9 +1,9 @@
-""" has everything except for live token streaming and is pydantic v1
-Pydantic Models for Request/Response Validation (Pydantic v1)
+"""
+Pydantic Models for Request/Response Validation (Pydantic v2)
 Defines API contracts for the AI Shine Tutor chatbot.
 """
 from typing import List, Literal, Optional, Any, Dict
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field, field_validator, ConfigDict
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -12,7 +12,7 @@ load_dotenv()
 class Message(BaseModel):
     """
     Single chat message.
-    
+
     Attributes:
         role: Message sender ("human" or "ai")
         content: Message text or structured content
@@ -30,14 +30,14 @@ class Message(BaseModel):
         default="text",
         description="Message type for frontend rendering"
     )
-    
-    @validator('role')
+
+    @field_validator('role')
     def validate_role(cls, v):
         if v not in ["human", "ai"]:
             raise ValueError("Role must be 'human' or 'ai'")
         return v
-    
-    @validator('content')
+
+    @field_validator('content')
     def validate_content(cls, v):
         if isinstance(v, str):
             if not v.strip():
@@ -52,30 +52,30 @@ class Message(BaseModel):
 class ChatRequest(BaseModel):
     """
     Request payload for /chat endpoint.
-    
+
     Attributes:
         chat_history: List of previous messages in conversation
     """
     chat_history: List[Message] = Field(
         ...,
         description="Conversation history with user and AI messages",
-        min_items=1
+        min_length=1
     )
-    
-    @validator('chat_history')
+
+    @field_validator('chat_history')
     def validate_history(cls, v):
         if not v:
             raise ValueError("chat_history cannot be empty")
-        
+
         # Ensure at least one human message exists
         has_human_message = any(msg.role == "human" for msg in v)
         if not has_human_message:
             raise ValueError("chat_history must contain at least one human message")
-        
+
         return v
-    
-    class Config:
-        json_schema_extra = {
+
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "chat_history": [
                     {
@@ -91,12 +91,13 @@ class ChatRequest(BaseModel):
                 ]
             }
         }
+    )
 
 
 class ChatResponse(BaseModel):
     """
     Response payload from /chat endpoint.
-    
+
     Attributes:
         answer: Generated response text (may contain markdown and structured format)
         type: Response type for frontend rendering logic
@@ -109,26 +110,27 @@ class ChatResponse(BaseModel):
         default="text",
         description="Response type for rendering strategy"
     )
-    
-    @validator('answer')
+
+    @field_validator('answer')
     def validate_answer(cls, v):
         if not v or not v.strip():
             raise ValueError("Answer cannot be empty")
         return v
-    
-    class Config:
-        json_schema_extra = {
+
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "answer": "**Answer:**\nMachine learning is a subset of artificial intelligence...\n\n**Key Points:**\n• Learns from data without explicit programming\n• Uses algorithms to find patterns\n• Improves performance over time",
                 "type": "structured"
             }
         }
+    )
 
 
 class HealthResponse(BaseModel):
     """
     Health check response model.
-    
+
     Attributes:
         api: Overall API status
         rag_engine: RAG engine availability
@@ -146,7 +148,7 @@ class RetrievalContext(BaseModel):
     """
     Internal model for RAG retrieval results.
     Not exposed via API - used internally by rag_engine.
-    
+
     Attributes:
         chunks: Retrieved text chunks from vector DB
         provenance: Metadata about sources (doc_id, score, module)
@@ -170,7 +172,7 @@ class IntentResult(BaseModel):
     """
     Internal model for intent detection results.
     Not exposed via API - used internally by rag_engine.
-    
+
     Attributes:
         intent_type: Detected intent category
         is_continuation: Whether user wants more detail
