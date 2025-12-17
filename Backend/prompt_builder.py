@@ -124,17 +124,6 @@ KB-first with minimal append:
         self.greeting_regex = re.compile('|'.join(self.GREETING_PATTERNS), re.IGNORECASE)
         self.farewell_regex = re.compile('|'.join(self.FAREWELL_PATTERNS), re.IGNORECASE)
 
-    def detect_intent(self, message: str, chat_history: Optional[List[Message]] = None) -> Dict[str, Any]:
-        if not message or not message.strip():
-            return {"intent_type": "query", "is_continuation": False, "is_greeting": False, "is_farewell": False, "confidence": 0.0}
-        text = message.strip()
-        if self.greeting_regex.match(text):
-            return {"intent_type": "greeting", "is_continuation": False, "is_greeting": True, "is_farewell": False, "confidence": 1.0}
-        if self.farewell_regex.match(text):
-            return {"intent_type": "farewell", "is_continuation": False, "is_greeting": False, "is_farewell": True, "confidence": 1.0}
-        if self.continuation_regex.search(text):
-            return {"intent_type": "continuation", "is_continuation": True, "is_greeting": False, "is_farewell": False, "confidence": 1.0}
-        return {"intent_type": "query", "is_continuation": False, "is_greeting": False, "is_farewell": False, "confidence": 1.0}
 
     def build_system_prompt(
         self,

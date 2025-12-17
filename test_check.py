@@ -1,78 +1,34 @@
-# Check what's actually stored in MongoDB for the failing prompts
-# from Backend.mongodb_client import MongoDBClient
-# client = MongoDBClient()
+import os
+import pytest
+from unittest.mock import patch, MagicMock
 
-# # Check "Why AI for Students"
-# doc1 = client.db.module_vectors.find_one({"topic": "Why AI for Students"})
-# print("Why AI for Students presentation_data keys:", doc1.get('presentation_data', {}).keys() if doc1 else "NOT FOUND")
+# Set mock environment variables before importing other modules
+os.environ["USE_MOCK_EMBEDDINGS"] = "true"
+os.environ["MONGO_DB_URI"] = "mongodb://localhost:27017/"
+os.environ["DB_NAME"] = "test_db"
 
-# # Check "AI in Maths Mastery"  
-# doc2 = client.db.module_vectors.find_one({"topic": "AI in Maths Mastery"})
-# print("AI in Maths Mastery presentation_data keys:", doc2.get('presentation_data', {}).keys() if doc2 else "NOT FOUND")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# # test_kb_structure.py
-# from Backend.mongodb_client import MongoDBClient
-
-# client = MongoDBClient()
-
-# # Check if old presentation topics exist in KB
-# topics = ["Future Careers Powered by AI", "Why AI for Students", "AI in Science Labs"]
-
-# for topic in topics:
-#     doc = client.collection.find_one({"topic": topic, "source": "knowledge_base"})
-#     if doc:
-#         print(f"✅ Found: {topic}")
-#         print(f"   Has 'presentation_data': {'presentation_data' in doc}")
-#         print(f"   Has 'is_presentation': {'is_presentation' in doc}")
-#         print(f"   Content length: {len(doc.get('content', ''))}")
-#         print()
-#     else:
-#         print(f"❌ Not found: {topic}\n")
-
-# client.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# test_chunk_size.py
 from Backend.mongodb_client import MongoDBClient
 
-client = MongoDBClient()
+def test_mongodb_client_connection():
+    """
+    Test MongoDB client connection.
+    This test is skipped if USE_MOCK_EMBEDDINGS is true.
+    """
+    if os.getenv("USE_MOCK_EMBEDDINGS") == "true":
+        pytest.skip("Skipping database connection test in mock environment")
 
-doc = client.collection.find_one({"topic": "Future Careers Powered by AI"})
+    # This part of the test will only run if USE_MOCK_EMBEDDINGS is not "true"
+    client = MongoDBClient()
+    assert client is not None
+    assert client.client is not None
+    # Test a simple command to ensure the connection is live
+    client.client.admin.command('ping')
 
-if doc:
-    content = doc.get('content', '')
-    print(f"Content length: {len(content)} chars")
-    print(f"Content preview (first 1000 chars):")
-    print(content[:1000])
-    print(f"\n...truncated at 1000 chars")
-    print(f"\nNumber of careers in content: {content.count('Example:')}")
-else:
-    print("Document not found")
+def test_mongodb_client_singleton():
+    """Test that the MongoDB client is a singleton."""
+    if os.getenv("USE_MOCK_EMBEDDINGS") == "true":
+        pytest.skip("Skipping database connection test in mock environment")
 
-client.close()
+    client1 = MongoDBClient()
+    client2 = MongoDBClient()
+    assert client1 is client2
