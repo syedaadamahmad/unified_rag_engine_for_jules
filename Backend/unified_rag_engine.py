@@ -4,11 +4,14 @@ import json
 import time
 from typing import List, Dict, Any, AsyncGenerator
 from concurrent.futures import ThreadPoolExecutor
+
 from langchain_core.messages import SystemMessage, HumanMessage
+
 from Backend.models import Message
 from Backend.langchain_retriever import LangChainMongoRetriever
-from Backend.langchain_llm_client import create_langchain_gemini_client
+from Backend.langchain_llm_client import create_langchain_gemini_client, create_langchain_gemini_lite_client
 from Backend.prompt_builder import PromptBuilder
+from Backend.intent_detector import LangChainIntentDetector
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -25,12 +28,15 @@ class UnifiedFlashEngine:
     - Maintains ChatResponse schema for non-streaming endpoint
     - NDJSON streaming for /chat_stream endpoint
     - Uses PromptBuilder for strict formatting and knowledge locking
+    - Dynamic LLM selection for speed and quality
     """
 
     def __init__(self):
-        self.llm = create_langchain_gemini_client()
+        self.llm_flash = create_langchain_gemini_client()
+        self.llm_lite = create_langchain_gemini_lite_client()
         self.retriever = LangChainMongoRetriever(max_results=5)
         self.prompt_builder = PromptBuilder()
+        self.intent_detector = LangChainIntentDetector()
         self.executor = ThreadPoolExecutor(max_workers=4)
 
         logger.info("[UNIFIED_ENGINE] ✅ Gemini 2.5 Flash Engine Ready (Streaming Enabled)")
@@ -59,7 +65,7 @@ class UnifiedFlashEngine:
 
         try:
             # 1. Intent Detection
-            intent = self.prompt_builder.detect_intent(query, chat_history)
+            intent = await self.intent_detector.detect_intent(query, chat_history)
 
             if intent["intent_type"] == "greeting":
                 logger.info("[INTENT] Greeting detected")
@@ -114,8 +120,11 @@ class UnifiedFlashEngine:
                 HumanMessage(content=final_user_prompt)
             ]
 
-            logger.info("[GENERATION] Calling Gemini 2.5 Flash...")
-            response = await self.llm.ainvoke(messages)
+            # Dynamic LLM Selection
+            llm = self.llm_flash if intent.get("is_continuation") else self.llm_lite
+            logger.info(f"[LLM_SELECTION] Using {'Flash' if llm == self.llm_flash else 'Lite'} model.")
+
+            response = await llm.ainvoke(messages)
 
             answer = response.content.strip()
 
@@ -155,7 +164,7 @@ class UnifiedFlashEngine:
 
         try:
             # 1. Intent Detection (Fast)
-            intent = self.prompt_builder.detect_intent(query, chat_history)
+            intent = await self.intent_detector.detect_intent(query, chat_history)
 
             if intent["intent_type"] == "greeting":
                 # Send full greeting immediately
@@ -218,10 +227,14 @@ class UnifiedFlashEngine:
             # 4. Signal streaming start (kills frontend spinner immediately)
             yield json.dumps({"type": "text", "status": "generating"}) + "\n"
 
+            # Dynamic LLM Selection
+            llm = self.llm_flash if intent.get("is_continuation") else self.llm_lite
+            logger.info(f"[LLM_SELECTION] Using {'Flash' if llm == self.llm_flash else 'Lite'} model for streaming.")
+
             logger.info(f"[STREAM] Starting LLM stream at {time.time() - start_time:.2f}s")
 
             # 5. Stream tokens from LLM
-            async for chunk in self.llm.astream(messages):
+            async for chunk in llm.astream(messages):
                 if chunk.content:
                     # Send each token/fragment immediately
                     payload = {"answer_chunk": chunk.content}

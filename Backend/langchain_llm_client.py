@@ -58,3 +58,49 @@ def create_langchain_gemini_client() -> ChatGoogleGenerativeAI:
 
     logger.info("[LANGCHAIN_GEMINI] ✅ Gemini 2.5 Flash client initialized")
     return llm
+
+def create_langchain_gemini_lite_client() -> ChatGoogleGenerativeAI:
+    """
+    Create LangChain-compatible Gemini 2.5 Flash Lite client.
+
+    Configuration:
+    - Model: gemini-2.5-flash-lite (fastest)
+    - Temperature: 0.5 (more focused)
+    - Safety: All blocks disabled
+    - Max tokens: 1024 (for fast, initial responses)
+
+    Returns:
+        Configured ChatGoogleGenerativeAI instance for speed.
+
+    Raises:
+        ValueError: If GOOGLE_API_KEY not set in environment
+    """
+    if os.getenv("USE_MOCK_LLM") == "true":
+        logger.info("[LANGCHAIN_GEMINI_LITE] Using mock LLM for testing")
+        mock_llm = AsyncMock()
+        mock_llm.ainvoke.return_value = MagicMock(content="Mocked Lite LLM response")
+        return mock_llm
+
+    api_key = os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        raise ValueError("[LANGCHAIN_GEMINI_LITE] GOOGLE_API_KEY not set in environment")
+
+    safety_settings = {
+        HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
+        HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
+        HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
+        HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
+    }
+
+    llm = ChatGoogleGenerativeAI(
+        model="gemini-2.5-flash-lite",
+        google_api_key=api_key,
+        temperature=0.5,
+        top_p=0.9,
+        top_k=30,
+        max_output_tokens=1024,
+        safety_settings=safety_settings,
+    )
+
+    logger.info("[LANGCHAIN_GEMINI_LITE] ✅ Gemini 2.5 Flash Lite client initialized")
+    return llm
