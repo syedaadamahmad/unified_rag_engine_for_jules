@@ -4,7 +4,7 @@ from typing import List, Dict, Any, Optional
 from enum import Enum
 
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError
 
 from Backend.langchain_llm_client import create_langchain_gemini_lite_client
 from Backend.models import Message
@@ -39,10 +39,15 @@ class LangChainIntentDetector:
                 (
                     "system",
                     "You are an expert at classifying user intent. "
-                    "Classify the user's message into one of the following categories: "
-                    "GREETING, FAREWELL, CONTINUATION, or QUERY. "
+                    "Classify the user's message into one of the following categories. "
                     "Consider the last few messages in the conversation history for context. "
-                    "CONTINUATION intents are follow-up questions like 'tell me more', 'go on', or 'what else?'",
+                    "CONTINUATION intents are follow-up questions like 'tell me more', 'go on', or 'what else?'\n\n"
+                    "You must respond with ONLY ONE of the following lowercase values:\n"
+                    "- greeting\n"
+                    "- farewell\n"
+                    "- continuation\n"
+                    "- query\n\n"
+                    "Do not invent new labels. Do not explain. Do not return JSON outside the schema.",
                 ),
                 ("human", "Conversation History:\n{chat_history}\n\nUser Message: {user_message}"),
             ]
@@ -70,6 +75,10 @@ class LangChainIntentDetector:
         if not message or not message.strip():
             return {"intent_type": "query", "is_continuation": False}
 
+        # Short-circuit for simple greetings
+        if len(message.split()) < 3 and message.lower().strip() in ["hi", "hello", "hey"]:
+            return {"intent_type": "greeting", "is_continuation": False}
+
         formatted_history = self._format_history_for_prompt(chat_history)
 
         try:
@@ -79,6 +88,9 @@ class LangChainIntentDetector:
             })
             intent_type = result.intent.value
             logger.info(f"[INTENT_DETECTOR] Detected intent: {intent_type}")
+        except ValidationError as e:
+            logger.warning(f"[INTENT_DETECTOR] ⚠️ Intent validation failed, defaulting to 'query'. Error: {e}")
+            intent_type = "query"
         except Exception as e:
             logger.error(f"[INTENT_DETECTOR] ❌ Failed to detect intent: {e}", exc_info=True)
             intent_type = "query"
