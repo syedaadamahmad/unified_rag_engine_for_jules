@@ -178,11 +178,22 @@ KB-first with minimal append:
         section += "---\n\n"
         return section
 
+    def _format_chat_history(self, chat_history: Optional[List[Dict[str, Any]]]) -> str:
+        if not chat_history:
+            return ""
+
+        formatted_history = "\n\n[Conversation History]:\n"
+        for msg in chat_history:
+            role = "Student" if msg.get("role") == "human" else "AI Shine"
+            formatted_history += f'{role}: {msg.get("content", "")}\n'
+        return formatted_history
+
     def build_user_prompt(
         self,
         query: str,
         context_chunks: List[str],
         intent: Dict[str, Any],
+        chat_history: Optional[List[Dict[str, Any]]] = None,
         is_presentation: bool = False,  # ignored
         show_module_citation: bool = False,
         module_names: Optional[List[str]] = None,
@@ -197,6 +208,7 @@ KB-first with minimal append:
             )
 
         user_prompt = self._pack_context(context_chunks)
+        user_prompt += self._format_chat_history(chat_history)
         user_prompt += f"Student Question: {query}\n\n"
 
         ql = (query or "").lower()
