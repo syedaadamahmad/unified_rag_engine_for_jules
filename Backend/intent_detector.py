@@ -28,15 +28,12 @@ class IntentClassification(BaseModel):
 class LangChainIntentDetector:
     """
     Detects user intent using a LangChain classification chain.
-    This provides a more robust and scalable alternative to regex-based detection.
     """
 
     def __init__(self):
         """Initializes the intent detection chain."""
-        # Use the fast "lite" client for intent detection to minimize latency
         self.llm = create_langchain_gemini_lite_client()
 
-        # The prompt template instructs the LLM on how to classify the user's message
         prompt = ChatPromptTemplate.from_messages(
             [
                 (
@@ -51,7 +48,6 @@ class LangChainIntentDetector:
             ]
         )
 
-        # Create a structured output chain that forces the LLM to return data in the `IntentClassification` schema
         self.chain = prompt | self.llm.with_structured_output(IntentClassification)
         logger.info("[INTENT_DETECTOR] ✅ LangChain intent detector initialized.")
 
@@ -60,7 +56,6 @@ class LangChainIntentDetector:
         if not chat_history:
             return "No history."
 
-        # Get the last 4 messages to keep the prompt concise
         recent_history = chat_history[-4:]
         formatted = []
         for msg in recent_history:
@@ -71,16 +66,12 @@ class LangChainIntentDetector:
     async def detect_intent(self, message: str, chat_history: Optional[List[Message]] = None) -> Dict[str, Any]:
         """
         Detects the intent of a user message using the LangChain classification chain.
-
-        Returns a dictionary compatible with the `UnifiedFlashEngine`.
         """
         if not message or not message.strip():
             return {"intent_type": "query", "is_continuation": False}
 
-        # Format history for the prompt
         formatted_history = self._format_history_for_prompt(chat_history)
 
-        # Invoke the chain to get the structured classification
         try:
             result = await self.chain.ainvoke({
                 "chat_history": formatted_history,
@@ -90,10 +81,8 @@ class LangChainIntentDetector:
             logger.info(f"[INTENT_DETECTOR] Detected intent: {intent_type}")
         except Exception as e:
             logger.error(f"[INTENT_DETECTOR] ❌ Failed to detect intent: {e}", exc_info=True)
-            # Fallback to "query" on failure
             intent_type = "query"
 
-        # Map the classification result to the dictionary format expected by the engine
         return {
             "intent_type": intent_type,
             "is_continuation": intent_type == "continuation",

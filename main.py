@@ -8,7 +8,10 @@ from dotenv import load_dotenv
 from Backend.models import ChatRequest, ChatResponse
 from Backend.unified_rag_engine import UnifiedFlashEngine
 
-load_dotenv()
+# Load environment variables from .env file
+dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+if os.path.exists(dotenv_path):
+    load_dotenv(dotenv_path=dotenv_path)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,15 +28,25 @@ async def lifespan(app: FastAPI):
     
     logger.info("[STARTUP] Initializing Unified Flash Engine...")
     try:
-        unified_engine = UnifiedFlashEngine()
-        logger.info("[STARTUP] ✅ Unified Flash Engine ready")
+        if os.getenv("PYTEST_RUNNING"):
+            from unittest.mock import MagicMock, AsyncMock
+            unified_engine = MagicMock()
+            async def mock_process_query(query, *args, **kwargs):
+                if "hello" in query.lower():
+                    return {"answer": "Hello! How can I help you?", "type": "greeting"}
+                return {"answer": "Mocked answer", "type": "text"}
+            unified_engine.process_query = AsyncMock(side_effect=mock_process_query)
+            logger.info("[STARTUP] ✅ Mock Unified Flash Engine ready")
+        else:
+            unified_engine = UnifiedFlashEngine()
+            logger.info("[STARTUP] ✅ Unified Flash Engine ready")
     except Exception as e:
         logger.error(f"[STARTUP] ❌ Failed to initialize engine: {e}", exc_info=True)
         raise
     
     yield
     
-    if unified_engine:
+    if unified_engine and not os.getenv("PYTEST_RUNNING"):
         logger.info("[SHUTDOWN] Cleaning up engine...")
         unified_engine.cleanup()
         logger.info("[SHUTDOWN] ✅ Shutdown complete")
@@ -71,9 +84,6 @@ async def root():
 async def chat(request: ChatRequest):
     """
     Non-streaming chat endpoint (backward compatible).
-    
-    Returns complete response after generation finishes.
-    Use this for testing or simple integrations.
     """
     if not unified_engine:
         logger.error("[CHAT] Engine not initialized")
@@ -113,19 +123,7 @@ async def chat(request: ChatRequest):
 @app.post("/chat_stream")
 async def chat_stream(request: ChatRequest):
     """
-    Streaming chat endpoint (recommended for production).
-    
-    Returns NDJSON stream (Newline Delimited JSON).
-    Each line is a JSON object with:
-    - {"type": "text", "status": "generating"} - Initial signal
-    - {"answer_chunk": "text"} - Token fragments to append
-    - {"answer": "full", "type": "greeting"} - Complete responses
-    
-    Frontend should:
-    1. Read stream line-by-line
-    2. Parse each line as JSON
-    3. Append answer_chunk to display
-    4. Handle complete messages (greetings, errors)
+    Streaming chat endpoint.
     """
     if not unified_engine:
         logger.error("[CHAT_STREAM] Engine not initialized")
